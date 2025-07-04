@@ -1,0 +1,977 @@
+[
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"My partner wasn't listening to me at all today. It felt so invalidating.\"\n- Emotion: anger, Entry: \"Still fuming about our conversation. I just wanted to feel heard.\"\n- Emotion: sadness, Entry: \"Now I just feel sad and distant from them.\"",
+    "output": "It's so tough when you feel like the person closest to you isn't listening. That anger and sadness are completely justified. Before you revisit the conversation, could you take a moment for yourself? Find a quiet corner, and for two minutes, just focus on the sensation of your feet on the floor. It's a small way to ground yourself in the present."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: tired, Entry: \"Barely slept last night, my mind was racing.\"\n- Emotion: anxiety, Entry: \"Dreading the day ahead. I feel too exhausted to function.\"\n- Emotion: tired, Entry: \"Just want to crawl back into bed.\"",
+    "output": "I hear how exhausted you are; running on no sleep is incredibly difficult. Instead of pushing harder, let's try a 'restful pause.' Can you set a timer for 4 minutes, close your eyes, and listen to a calming instrumental track? It's not about forcing sleep, but giving your mind a brief sanctuary."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: neutral, Entry: \"Another day, another dollar. Nothing special happened.\"\n- Emotion: sadness, Entry: \"Feeling like I'm stuck in a rut. Every day is the same.\"\n- Emotion: neutral, Entry: \"Watching TV to pass the time. I'm bored.\"",
+    "output": "It sounds like you're feeling stuck in a monotonous loop, and that's a heavy feeling. To gently disrupt the pattern, how about this? Put your shoes on and step outside for just three minutes. Look up at the sky and notice the shape of one cloud. It's a tiny act of shifting your perspective, literally."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"My sister called, we had the best laugh just now.\"\n- Emotion: anger, Entry: \"Got an email from my boss that was really passive-aggressive. Instantly ruined my mood.\"\n- Emotion: anxiety, Entry: \"Now I'm overthinking what my boss meant. I can't focus.\"",
+    "output": "It's so jarring to go from a moment of joy to sudden anxiety. To help your mind shift away from that email, let's try a sensory trick. Can you find an object near you—a mug, a pen, a plant—and spend one minute describing it in your head in great detail? Its color, texture, temperature. This can help interrupt the anxiety loop."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: excitement, Entry: \"Booked my vacation for next month! I am so ready for a break.\"\n- Emotion: joy, Entry: \"Looking at pictures of the destination, it looks so beautiful.\"\n- Emotion: excitement, Entry: \"Can't wait to just relax and read a book on the beach.\"",
+    "output": "It's wonderful that you have such an exciting trip to look forward to! To channel that positive energy right now, how about taking five minutes to write a 'pre-vacation' gratitude list? List three things you're most excited to experience on your trip. It's a great way to savor the anticipation."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: unmotivated, Entry: \"I have so much to do, but I can't bring myself to start.\"\n- Emotion: guilt, Entry: \"Feeling guilty for procrastinating. It just makes it worse.\"\n- Emotion: unmotivated, Entry: \"Just staring at my to-do list is overwhelming.\"",
+    "output": "That feeling of being frozen by an overwhelming list is very real. Let's forget the whole list for a moment. Could you pick the absolute smallest, easiest task—even something like 'reply to one email'—and do just that one thing for the next five minutes? Let's aim for a tiny win to break the inertia."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"My pet seems to be getting older and slower. It makes me sad.\"\n- Emotion: love, Entry: \"Spent some time just petting him on the couch. I love him so much.\"\n- Emotion: sadness, Entry: \"Thinking about the future makes my heart ache.\"",
+    "output": "I hear the deep love and anticipatory grief in your entries. It's so hard to watch a beloved pet age. Right now, could you honor that love? Find your favorite photo of your pet, look at it for a minute, and allow yourself to smile at the happy memory it brings. It's a way to connect with the joy, even amidst the sadness."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: neutral, Entry: \"Did a workout from home. It was okay.\"\n- Emotion: neutral, Entry: \"Made a healthy lunch.\"\n- Emotion: neutral, Entry: \"Just a quiet day of taking care of things.\"",
+    "output": "It seems like it was a day of quiet, responsible choices for your wellbeing. That's something to be proud of. To acknowledge that effort, could you take 60 seconds to do a gentle neck stretch? Tilt your head from side to side. It's a small, physical 'thank you' to your body for all it did today."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"A friend cancelled our plans at the last minute. Again.\"\n- Emotion: frustration, Entry: \"I feel like my time isn't respected and I'm not a priority.\"\n- Emotion: sadness, Entry: \"It just makes me feel unimportant.\"",
+    "output": "It's deeply frustrating and hurtful when your time and friendship aren't prioritized. Your feelings are valid. To help release some of that frustration from your body, try this: Clench your fists as tight as you can for five seconds, and then release them completely. Repeat this three times. It's a physical way to let go of tension."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"The weather is perfect today, sunny and warm.\"\n- Emotion: anxiety, Entry: \"But I have so much work to do, I'm stuck inside.\"\n- Emotion: sadness, Entry: \"Feeling like I'm missing out on a beautiful day.\"",
+    "output": "It's tough to be stuck inside when it feels like the world is calling to you. Can you capture a small piece of that beauty? If you can, step over to a window for just two minutes. Look outside and find three things you've never noticed before. It's a micro-dose of the outdoors."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: self-doubt, Entry: \"Feeling like an imposter in my new role at work.\"\n- Emotion: anxiety, Entry: \"What if they find out I don't know everything?\"\n- Emotion: fear, Entry: \"I'm scared of failing this project.\"",
+    "output": "Imposter syndrome is a heavy burden, and it sounds like it's weighing on you. Let's counter that feeling of 'not enough' with a fact. Could you open a new note and write down one single professional accomplishment from your past, big or small, that you are proud of? Just one. Let's remind yourself that you've succeeded before."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"My child said the funniest thing today, I was crying with laughter.\"\n- Emotion: love, Entry: \"Watching them sleep, my heart feels so full.\"\n- Emotion: tired, Entry: \"But wow, parenting is exhausting. I have no energy left for myself.\"",
+    "output": "It sounds like your day was filled with so much love and laughter, but also complete exhaustion. It's the paradox of parenting. Now that things are quiet, could you do one small thing just for you? Try brewing a cup of tea and, for three minutes, just focus on the warmth of the mug in your hands. A tiny moment of peaceful restoration."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"Saw a news headline that just made me furious with the state of the world.\"\n- Emotion: powerless, Entry: \"It feels like everything is a mess and there's nothing I can do.\"\n- Emotion: anxiety, Entry: \"The negativity is really getting to me.\"",
+    "output": "It's completely understandable to feel anger and powerlessness when faced with upsetting news. It can be a lot to carry. To reclaim a small sense of agency, what if you took one minute to tidy up a tiny space right in front of you? Your desk, a coaster, a bookshelf. It's a simple act of creating order in your immediate environment."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: disappointment, Entry: \"I didn't get the job I interviewed for. I really thought I had it.\"\n- Emotion: sadness, Entry: \"Feeling pretty low and rejected right now.\"\n- Emotion: self-doubt, Entry: \"Maybe I'm just not good enough.\"",
+    "output": "Rejection stings, and it's okay to feel disappointed and sad right now. That's a normal part of the process. Before you spiral into self-doubt, let's pause. Can you take out a piece of paper and write down three things you offer as a professional, completely independent of this one job? Let's reconnect with your value."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: calm, Entry: \"Listened to a great podcast on my commute.\"\n- Emotion: neutral, Entry: \"Work was fine, nothing too stressful.\"\n- Emotion: content, Entry: \"Looking forward to a quiet evening at home.\"",
+    "output": "It's wonderful to see you're having a calm and contented day. To build on that feeling, how about adding a small, sensory pleasure to your evening? You could light a candle, put a cozy blanket on, or play some soft music in the background. A simple way to make a quiet evening feel even more restorative."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: guilt, Entry: \"I snapped at my kids today. I was just so stressed out.\"\n- Emotion: sadness, Entry: \"I feel like a terrible parent.\"\n- Emotion: tired, Entry: \"The pressure is just immense some days.\"",
+    "output": "It's clear you care so much, and the guilt you feel comes from that deep love. Every parent has moments they regret. Please be gentle with yourself. Could you try this? Place a hand over your heart and say, 'I am doing the best I can.' Just once. It's a small act of self-compassion, which you truly deserve."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I have a huge presentation tomorrow and I'm not prepared.\"\n- Emotion: anxiety, Entry: \"Worried about the meeting with my boss, I feel like I'm underperforming.\"\n- Emotion: neutral, Entry: \"Just a regular day, nothing much happened.\"",
+    "output": "It seems like work performance is a source of anxiety right now. Before you dive back into work, could you try this? Step away for 5 minutes, put on a song you love, and just focus on the music. It can help reset your mind before you tackle the presentation."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"Had a wonderful dinner with an old friend.\"\n- Emotion: neutral, Entry: \"Did some chores around the house.\"\n- Emotion: sadness, Entry: \"Feeling a bit lonely tonight and missing my family.\"",
+    "output": "I notice your feelings have shifted recently. It's completely okay to feel lonely even after happy moments. How about reaching out to one of those family members with a simple 'thinking of you' message? It can make a world of difference for both of you."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"Finally finished that big project at work and got great feedback!\"\n- Emotion: joy, Entry: \"The weather was beautiful today, so I went for a long walk.\"\n- Emotion: neutral, Entry: \"Just relaxing and watching a movie tonight.\"",
+    "output": "It's wonderful to see you're on a positive streak! To really soak in that feeling of accomplishment, take two minutes to write down three specific things you are proud of about that project. Let's celebrate that win."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"My pet is sick and I'm so worried.\"\n- Emotion: sadness, Entry: \"Couldn't sleep last night, just kept thinking about everything.\"\n- Emotion: neutral, Entry: \"Ate breakfast, went to work.\"",
+    "output": "It sounds like you're carrying a heavy emotional load right now. When things feel overwhelming, sometimes a small act of self-compassion can help. Can you take 3 minutes to just sit quietly and place your hand over your heart, focusing on your breath?"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"My roommate left a huge mess again, I'm so fed up.\"\n- Emotion: anger, Entry: \"Got into an argument with a colleague today, it was frustrating.\"\n- Emotion: neutral, Entry: \"Cooked dinner.\"",
+    "output": "It seems like you're feeling a lot of frustration and anger. When emotions run high, it can be helpful to release some of that energy. Try this: clench your fists tightly for 5 seconds, then release them, repeating a few times. Notice the tension leave your body."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"Spent the day volunteering, it felt so good.\"\n- Emotion: joy, Entry: \"My favorite team won the game!\"\n- Emotion: happiness, Entry: \"Received a thoughtful gift from a friend.\"",
+    "output": "What a wonderful string of positive experiences! To keep that joy flowing, take a moment to send a quick text or email to someone you appreciate, letting them know why you're grateful for them. Spreading kindness can amplify your own happiness."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"Can't stop thinking about all the things I need to do this week.\"\n- Emotion: overwhelm, Entry: \"My to-do list is endless, I don't know where to start.\"\n- Emotion: neutral, Entry: \"Grocery shopping.\"",
+    "output": "It sounds like a lot is weighing on your mind. When the to-do list feels overwhelming, try this: pick just one tiny task you can complete in under 2 minutes. Even checking off something small can create a sense of momentum and ease the pressure."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: neutral, Entry: \"Read a book.\"\n- Emotion: neutral, Entry: \"Watered the plants.\"\n- Emotion: neutral, Entry: \"Watched TV.\"",
+    "output": "It sounds like you've had a calm, steady day. Sometimes, even on neutral days, a little spark can make a difference. How about taking 60 seconds to notice three beautiful things around you right now, no matter how small?"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"Feeling really down about a recent breakup.\"\n- Emotion: anger, Entry: \"Still mad about how things ended.\"\n- Emotion: neutral, Entry: \"Went for a walk.\"",
+    "output": "It's clear you're navigating some difficult emotions after your breakup. It's okay to feel both sadness and anger. For a moment, can you allow yourself to just feel it without judgment? Try writing down one word that describes how you feel right now, then crumple the paper."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: excitement, Entry: \"Booking my vacation for next month! So excited!\"\n- Emotion: joy, Entry: \"Planning fun activities for the trip.\"\n- Emotion: neutral, Entry: \"Packed some clothes.\"",
+    "output": "It's fantastic to hear about your excitement for the upcoming vacation! To fully embrace this positive energy, spend two minutes visualizing one specific moment from your trip that you're most looking forward to. Really feel the joy of it."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: tired, Entry: \"Didn't get much sleep last night, feeling exhausted.\"\n- Emotion: tired, Entry: \"So sleepy at work today, couldn't focus.\"\n- Emotion: neutral, Entry: \"Had coffee.\"",
+    "output": "It sounds like sleep is a challenge right now, and you're feeling the effects. Even a short break can help. Can you close your eyes for 90 seconds and just focus on the sensation of your body resting, allowing your mind to quiet?"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: unmotivated, Entry: \"Can't seem to get anything done today.\"\n- Emotion: stuck, Entry: \"Feeling really uninspired and unsure what to do next.\"\n- Emotion: neutral, Entry: \"Browsed social media.\"",
+    "output": "It sounds like you're in a bit of a rut, feeling unmotivated and stuck. Sometimes, a tiny shift in environment can help. Try getting up and moving to a different room, or even just standing by a window for 60 seconds to change your perspective."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: gratitude, Entry: \"So thankful for my friends and family.\"\n- Emotion: joy, Entry: \"Had a really heartwarming conversation today.\"\n- Emotion: content, Entry: \"Feeling peaceful after a quiet evening.\"",
+    "output": "It's wonderful to see such a strong sense of gratitude and contentment in your entries! To deepen this feeling, take a minute to think of one specific small thing that brought you joy today and truly savor that memory."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: self-doubt, Entry: \"Questioning all my choices lately.\"\n- Emotion: insecure, Entry: \"Feel like I'm not good enough.\"\n- Emotion: neutral, Entry: \"Ate lunch.\"",
+    "output": "It sounds like self-doubt is creeping in, and those feelings of not being 'good enough' can be really tough. For a moment, can you look in a mirror and say one kind thing to yourself, even if it feels a little silly? It's a small act of self-affirmation."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: physical pain, Entry: \"My back is really bothering me today.\"\n- Emotion: tired, Entry: \"Just want to lie down, everything hurts.\"\n- Emotion: neutral, Entry: \"Drank water.\"",
+    "output": "It sounds like you're experiencing some physical discomfort, which can be draining. Even a small movement can sometimes help. Can you gently stretch your neck or shoulders for 30 seconds, just noticing the sensation without judgment?"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: boredom, Entry: \"Nothing interesting to do.\"\n- Emotion: restless, Entry: \"Feeling antsy and bored.\"\n- Emotion: neutral, Entry: \"Scrolled on phone.\"",
+    "output": "It seems like you're grappling with boredom and restlessness. When you're feeling this way, sometimes a tiny creative outlet can help. Try doodling on a piece of paper for two minutes, letting your hand move freely without a specific goal."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: relief, Entry: \"Finally got that difficult conversation over with.\"\n- Emotion: calm, Entry: \"Feeling much more relaxed after a long week.\"\n- Emotion: neutral, Entry: \"Cleaned the apartment.\"",
+    "output": "It's wonderful to see you're experiencing a sense of relief and calm! To fully appreciate this feeling, take a moment to consciously relax your shoulders and jaw. Notice how good it feels to release that tension."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: frustration, Entry: \"My computer crashed and I lost all my work.\"\n- Emotion: anger, Entry: \"This is the third time this week!\"\n- Emotion: neutral, Entry: \"Ate a snack.\"",
+    "output": "It sounds incredibly frustrating to lose your work, and it's understandable to feel angry. When you're feeling this heated, a quick cool-down can help. Try splashing some cold water on your face, or holding an ice cube for a moment to shift your focus."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: hope, Entry: \"Feeling optimistic about the new job opportunity.\"\n- Emotion: excited, Entry: \"Had a great interview today!\"\n- Emotion: neutral, Entry: \"Prepared dinner.\"",
+    "output": "It's inspiring to see your entries filled with hope and excitement! To nurture these positive feelings, take a minute to write down one specific reason why you feel optimistic about this new opportunity. Reinforce that positive belief."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: loneliness, Entry: \"Feeling very isolated lately.\"\n- Emotion: sadness, Entry: \"Miss my friends from back home.\"\n- Emotion: neutral, Entry: \"Watched a documentary.\"",
+    "output": "It sounds like loneliness is a strong emotion for you right now, and missing loved ones is completely understandable. Even a small connection can help. Can you send a quick voice note or video message to one of those friends, just saying hello?"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: stressed, Entry: \"Deadlines are piling up, can't catch a break.\"\n- Emotion: overwhelmed, Entry: \"Too much to do, too little time.\"\n- Emotion: neutral, Entry: \"Drank tea.\"",
+    "output": "It's clear you're feeling a lot of stress and overwhelm with all your deadlines. When your mind is racing, a grounding exercise can be helpful. Try the 5-4-3-2-1 technique: name 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: peaceful, Entry: \"Had a lovely meditation session.\"\n- Emotion: calm, Entry: \"Enjoyed a quiet morning.\"\n- Emotion: content, Entry: \"Feeling good after a productive day.\"",
+    "output": "It's wonderful to read about your peaceful and calm state! To extend this feeling, take a moment to close your eyes and recall the most peaceful moment from your day. Really immerse yourself in that memory for 60 seconds."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: insecure, Entry: \"Compared myself to others on social media, feeling bad.\"\n- Emotion: self-doubt, Entry: \"Worried I'm not achieving enough.\"\n- Emotion: neutral, Entry: \"Cooked a new recipe.\"",
+    "output": "It sounds like comparison and self-doubt are weighing on you. Remember, everyone's journey is unique. For a moment, can you list three things you *have* achieved or learned recently, no matter how small? Acknowledge your own progress."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: regret, Entry: \"Wish I had handled that conversation differently.\"\n- Emotion: guilt, Entry: \"Feeling bad about something I said.\"\n- Emotion: neutral, Entry: \"Did laundry.\"",
+    "output": "It sounds like you're grappling with regret and guilt, which can be heavy emotions. It's human to make mistakes. For a moment, can you offer yourself the same kindness you'd offer a friend? Try writing down one lesson you learned from the situation, then gently let it go."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: overwhelmed, Entry: \"My house is a mess, I don't know where to begin cleaning.\"\n- Emotion: stressed, Entry: \"Feeling suffocated by all the clutter.\"\n- Emotion: neutral, Entry: \"Listened to music.\"",
+    "output": "It sounds like the state of your home is contributing to feelings of overwhelm and stress. Instead of tackling everything, pick one small area, like a single shelf or a corner of a table. Spend just 5 minutes tidying that one spot. Small progress can feel huge."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"Had a fantastic workout, feeling strong!\"\n- Emotion: energized, Entry: \"Woke up feeling refreshed and ready.\"\n- Emotion: neutral, Entry: \"Ran errands.\"",
+    "output": "It's wonderful to see your entries reflecting such positive physical and mental energy! To keep that momentum going, take 60 seconds to do a few deep breaths, really feeling the energy move through your body. Connect with that feeling of strength."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: frustrated, Entry: \"My internet keeps cutting out, I can't get work done.\"\n- Emotion: annoyed, Entry: \"Dealing with tech issues all day.\"\n- Emotion: neutral, Entry: \"Ate dinner.\"",
+    "output": "It sounds incredibly frustrating to deal with persistent tech issues, and it's understandable to feel annoyed. When you're feeling stuck, sometimes a physical release can help. Try shaking out your hands and arms vigorously for 30 seconds to release some tension."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anticipation, Entry: \"Looking forward to the weekend getaway.\"\n- Emotion: excited, Entry: \"Counting down the days till my friend visits.\"\n- Emotion: neutral, Entry: \"Cleaned my room.\"",
+    "output": "It's lovely to see your entries filled with positive anticipation! To amplify that feeling, take a minute to imagine one specific fun moment you'll have during your weekend getaway or with your friend. Let that happy thought fill you."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: worried, Entry: \"Concerned about a family member's health.\"\n- Emotion: anxious, Entry: \"Can't stop thinking about worst-case scenarios.\"\n- Emotion: neutral, Entry: \"Walked the dog.\"",
+    "output": "It sounds like you're carrying a lot of worry and anxiety for your family member. When your mind races, a simple grounding technique can help. Try focusing on the sounds around you for 60 seconds, identifying at least three distinct sounds."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: accomplishment, Entry: \"Finished a difficult book, feeling proud.\"\n- Emotion: satisfied, Entry: \"Completed all my tasks for the day.\"\n- Emotion: neutral, Entry: \"Had a good conversation.\"",
+    "output": "It's wonderful to see your entries reflecting a strong sense of accomplishment and satisfaction! To truly savor this feeling, take a moment to give yourself a mental pat on the back. Acknowledge your hard work and dedication."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: lonely, Entry: \"Didn't hear from anyone today.\"\n- Emotion: isolated, Entry: \"Feeling like I'm on my own.\"\n- Emotion: neutral, Entry: \"Cooked a simple meal.\"",
+    "output": "It sounds like you're experiencing feelings of loneliness and isolation, which can be really tough. Even a small connection can make a difference. Can you send a quick emoji or a short, positive message to someone you haven't talked to in a while?"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: stressed, Entry: \"Too many emails to answer, feeling buried.\"\n- Emotion: overwhelmed, Entry: \"My inbox is out of control.\"\n- Emotion: neutral, Entry: \"Ate lunch quickly.\"",
+    "output": "It sounds like your inbox is a major source of stress and overwhelm right now. Instead of trying to tackle it all, pick just one email that you can respond to in under 2 minutes. Completing even one small task can break the cycle of overwhelm."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: grateful, Entry: \"Found my lost keys, so relieved and grateful.\"\n- Emotion: happy, Entry: \"Received a compliment at work today.\"\n- Emotion: neutral, Entry: \"Went for a run.\"",
+    "output": "It's lovely to see your entries reflecting gratitude and happiness! To keep this positive energy flowing, take 30 seconds to think of one other small thing you're grateful for right now, and really feel that appreciation."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: disappointed, Entry: \"My plans got cancelled last minute.\"\n- Emotion: sad, Entry: \"Feeling let down and a bit mopey.\"\n- Emotion: neutral, Entry: \"Read a magazine.\"",
+    "output": "It sounds like you're feeling disappointed and a bit sad about your cancelled plans, which is completely valid. It's okay to feel that way. For a moment, can you allow yourself to just feel the emotion without trying to fix it? Perhaps put on a comforting song and just listen."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: confident, Entry: \"Nailed that presentation today!\"\n- Emotion: proud, Entry: \"Got recognized for my efforts at work.\"\n- Emotion: neutral, Entry: \"Had a good chat with a friend.\"",
+    "output": "It's fantastic to see your confidence shining through! To truly embed this feeling of accomplishment, take a moment to reflect on what specific strengths you utilized to nail that presentation. Acknowledge your own capabilities."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: bored, Entry: \"Nothing to do on a rainy day.\"\n- Emotion: restless, Entry: \"Feeling stir-crazy indoors.\"\n- Emotion: neutral, Entry: \"Watched a movie.\"",
+    "output": "It sounds like you're battling boredom and restlessness on this rainy day. When you're feeling antsy, a small sensory shift can help. Try lighting a candle with a scent you love, or making a warm cup of tea and focusing on its aroma and warmth for a few minutes."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: overwhelmed, Entry: \"Too many social invitations, feeling drained.\"\n- Emotion: anxious, Entry: \"Worried about saying no and offending people.\"\n- Emotion: neutral, Entry: \"Did some light stretching.\"",
+    "output": "It sounds like you're feeling overwhelmed by social commitments and anxious about setting boundaries. Your well-being comes first. For a moment, can you practice saying 'no' quietly to yourself, imagining the relief it brings? It's okay to prioritize your energy."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: inspired, Entry: \"Read an amazing book that sparked new ideas.\"\n- Emotion: motivated, Entry: \"Feeling ready to start a new project.\"\n- Emotion: neutral, Entry: \"Went for a walk.\"",
+    "output": "It's wonderful to see your entries brimming with inspiration and motivation! To harness this creative energy, take two minutes to jot down any three ideas that came to mind, no matter how wild. Capture that spark before it fades."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: stressed, Entry: \"Argument with my partner, feeling tense.\"\n- Emotion: sadness, Entry: \"Still upset about our fight.\"\n- Emotion: neutral, Entry: \"Did some gardening.\"",
+    "output": "It sounds like the argument with your partner is causing you stress and sadness. When emotions are raw, a moment of gentle self-care can help. Can you place a hand on your chest and take three slow, deep breaths, just acknowledging the tension without judgment?"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: excited, Entry: \"Going on a first date tonight! Butterflies in my stomach.\"\n- Emotion: nervous, Entry: \"A bit anxious about how it will go.\"\n- Emotion: neutral, Entry: \"Got ready.\"",
+    "output": "It's completely normal to feel a mix of excitement and nervousness before a first date! To help calm those butterflies, try this: take a few sips of water slowly, focusing on the sensation. It can help regulate your nervous system."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I have a huge presentation tomorrow and I'm not prepared.\"\n- Emotion: anxiety, Entry: \"Worried about the meeting with my boss, I feel like I'm underperforming.\"\n- Emotion: neutral, Entry: \"Just a regular day, nothing much happened.\"",
+    "output": "It seems like work performance is a source of anxiety right now. Before you dive back into work, could you try this? Step away for 5 minutes, put on a song you love, and just focus on the music. It can help reset your mind before you tackle the presentation."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"Had a wonderful dinner with an old friend.\"\n- Emotion: neutral, Entry: \"Did some chores around the house.\"\n- Emotion: sadness, Entry: \"Feeling a bit lonely tonight and missing my family.\"",
+    "output": "I notice your feelings have shifted recently. It’s completely okay to feel lonely even after happy moments. How about reaching out to one of those family members with a simple ‘thinking of you’ message? It can make a world of difference for both of you."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"Finally finished that big project at work and got great feedback!\"\n- Emotion: joy, Entry: \"The weather was beautiful today, so I went for a long walk.\"\n- Emotion: neutral, Entry: \"Just relaxing and watching a movie tonight.\"",
+    "output": "It’s wonderful to see you’re on a positive streak! To really soak in that feeling of accomplishment, take two minutes to write down three specific things you’re proud of about that project. Let’s celebrate that win."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I had a fight with my partner and I’m feeling really down.\"\n- Emotion: sadness, Entry: \"Still upset about the argument, I don’t know how to fix it.\"\n- Emotion: neutral, Entry: \"Trying to distract myself with work, but it’s hard.\"",
+    "output": "It sounds like the argument with your partner is weighing heavily on you. Take a moment to write down one thing you appreciate about them, even if it’s small. It might help shift your perspective before you talk again."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so frustrated with my coworker, they keep taking credit for my work.\"\n- Emotion: anger, Entry: \"Another day, another stolen idea. I’m at my wit’s end.\"\n- Emotion: neutral, Entry: \"Trying to stay calm, but it’s tough.\"",
+    "output": "It seems like your coworker’s behavior is really getting to you. Before you react, try this: Step outside or to a quiet spot, take five deep breaths, and imagine letting go of the frustration with each exhale. It might help you approach the situation more calmly."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I can’t stop worrying about the future, everything feels uncertain.\"\n- Emotion: anxiety, Entry: \"Still feeling anxious, I don’t know what to do.\"\n- Emotion: neutral, Entry: \"Trying to focus on the present, but it’s hard.\"",
+    "output": "It seems like uncertainty about the future is causing you a lot of anxiety. How about trying a quick grounding exercise? Name five things you can see, four you can touch, three you can hear, two you can smell, and one you can taste. It can help bring you back to the present moment."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I got a promotion at work, I’m so excited!\"\n- Emotion: joy, Entry: \"Celebrated with friends, it was a great night.\"\n- Emotion: neutral, Entry: \"Back to the grind, but still riding the high.\"",
+    "output": "Congratulations on your promotion! To keep that positive energy going, take a moment to visualize your next career goal. What does it look like? How does it feel? It can help you stay motivated and focused."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I miss my old life before the pandemic.\"\n- Emotion: sadness, Entry: \"Still feeling nostalgic and a bit lost.\"\n- Emotion: neutral, Entry: \"Trying to adapt, but it’s challenging.\"",
+    "output": "It sounds like you’re grieving the loss of your pre-pandemic life. It’s okay to feel that way. How about creating a small ritual to honor what you’ve lost? Light a candle or write a letter to your past self. It can help you process those feelings."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so mad at myself for making that mistake.\"\n- Emotion: anger, Entry: \"Still beating myself up over it.\"\n- Emotion: neutral, Entry: \"Trying to move on, but it’s hard.\"",
+    "output": "It seems like you’re being really hard on yourself. Everyone makes mistakes. Try this: Write down three things you did well today, no matter how small. It can help balance your perspective."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I have a doctor’s appointment tomorrow and I’m nervous.\"\n- Emotion: anxiety, Entry: \"Still worried about what they might find.\"\n- Emotion: neutral, Entry: \"Trying to stay positive, but it’s tough.\"",
+    "output": "It sounds like you’re feeling anxious about your doctor’s appointment. Before you go, try a quick relaxation technique: Close your eyes, take a deep breath, and imagine a peaceful place. Stay there for a minute or two. It can help calm your nerves."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I finally finished that book I’ve been reading, it was amazing!\"\n- Emotion: joy, Entry: \"Shared it with a friend, we had a great discussion.\"\n- Emotion: neutral, Entry: \"Now looking for my next read.\"",
+    "output": "It’s great to see you’re enjoying your reading! To keep that momentum, how about setting a small goal for your next book? Maybe read for 10 minutes before bed each night. It can help you unwind and keep the joy going."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m not making any progress in my life.\"\n- Emotion: sadness, Entry: \"Still feeling stuck and unmotivated.\"\n- Emotion: neutral, Entry: \"Trying to find some inspiration, but it’s hard.\"",
+    "output": "It seems like you’re feeling stuck right now. Sometimes, taking a small step can help. How about setting a tiny goal for today, like making your bed or drinking an extra glass of water? It can give you a sense of accomplishment."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so frustrated with the political situation, it feels hopeless.\"\n- Emotion: anger, Entry: \"Still angry, but trying to channel it productively.\"\n- Emotion: neutral, Entry: \"Watching the news less, but still concerned.\"",
+    "output": "It sounds like the political climate is really affecting you. To help manage that anger, try this: Write a letter to your future self about how you’d like to see things change. It can help you process your feelings and focus on hope."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I’m worried about my finances, I don’t know if I can make ends meet.\"\n- Emotion: anxiety, Entry: \"Still stressed about money, it’s overwhelming.\"\n- Emotion: neutral, Entry: \"Trying to budget, but it’s tough.\"",
+    "output": "It seems like financial stress is weighing on you. Before you dive into numbers, take a moment to practice gratitude. List three things you’re thankful for that don’t cost money. It can help shift your mindset."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I had a great workout today, I feel energized!\"\n- Emotion: joy, Entry: \"Still feeling good, might make this a habit.\"\n- Emotion: neutral, Entry: \"Rest day, but looking forward to the next workout.\"",
+    "output": "It’s wonderful to see you’re enjoying your workouts! To keep that energy up, try setting a small intention for your next session. Maybe focus on form or try a new exercise. It can make it even more rewarding."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m letting everyone down.\"\n- Emotion: sadness, Entry: \"Still feeling guilty and inadequate.\"\n- Emotion: neutral, Entry: \"Trying to be kinder to myself, but it’s hard.\"",
+    "output": "It sounds like you’re being really hard on yourself. You’re doing your best. Try this: Write down one thing you’re proud of from today, even if it’s just getting out of bed. It’s a start."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so mad at my friend for canceling plans last minute.\"\n- Emotion: anger, Entry: \"Still upset, I feel disrespected.\"\n- Emotion: neutral, Entry: \"Trying to let it go, but it’s tough.\"",
+    "output": "It seems like your friend’s cancellation really hurt you. Before you react, try a quick mindfulness exercise: Focus on your breath for one minute, noticing each inhale and exhale. It can help you respond more calmly."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I have a big decision to make and I’m paralyzed by fear.\"\n- Emotion: anxiety, Entry: \"Still overthinking, I don’t know what to do.\"\n- Emotion: neutral, Entry: \"Trying to weigh pros and cons, but it’s overwhelming.\"",
+    "output": "It sounds like this decision is causing you a lot of anxiety. To help clarify your thoughts, try this: Set a timer for 5 minutes and write down all your thoughts about the decision without stopping. It can help you see things more clearly."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I had a great day with my family, it was so nice.\"\n- Emotion: joy, Entry: \"Still smiling from the memories we made.\"\n- Emotion: neutral, Entry: \"Back to routine, but feeling grateful.\"",
+    "output": "It’s wonderful to see you had such a great day with your family! To keep that warmth, how about sending a quick text to a family member saying what you appreciated most about the day? It can strengthen those bonds."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m not good enough for my partner.\"\n- Emotion: sadness, Entry: \"Still doubting myself, it’s exhausting.\"\n- Emotion: neutral, Entry: \"Trying to focus on the positive, but it’s hard.\"",
+    "output": "It seems like self-doubt is really affecting you. Your worth isn’t defined by anyone else. Try this: Stand in front of a mirror, look yourself in the eyes, and say, ‘I am enough.’ It might feel silly, but it can be powerful."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so frustrated with my lack of progress at work.\"\n- Emotion: anger, Entry: \"Still feeling stuck, it’s infuriating.\"\n- Emotion: neutral, Entry: \"Trying to be patient, but it’s tough.\"",
+    "output": "It sounds like your lack of progress is really frustrating you. To help manage that, try this: Take a piece of paper and write down all your frustrations, then tear it up and throw it away. It can be a symbolic release."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I’m worried about my health, I don’t feel right.\"\n- Emotion: anxiety, Entry: \"Still concerned, I might need to see a doctor.\"\n- Emotion: neutral, Entry: \"Trying to stay calm, but it’s hard.\"",
+    "output": "It seems like your health concerns are causing you anxiety. Before you spiral, try a quick body scan: Close your eyes and mentally check in with each part of your body, from your toes to your head. It can help you tune into what’s really going on."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I finally achieved my fitness goal, I feel amazing!\"\n- Emotion: joy, Entry: \"Celebrated with a healthy treat, it was perfect.\"\n- Emotion: neutral, Entry: \"Now thinking about my next goal.\"",
+    "output": "Congratulations on achieving your fitness goal! To keep that momentum, how about setting a new, small goal for the week? Maybe add an extra 5 minutes to your workout or try a new exercise. It can keep you motivated."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m not living up to my potential.\"\n- Emotion: sadness, Entry: \"Still feeling unfulfilled, it’s disheartening.\"\n- Emotion: neutral, Entry: \"Trying to find purpose, but it’s hard.\"",
+    "output": "It sounds like you’re feeling unfulfilled right now. Reconnecting with your values can help. Try this: Write down three things that are most important to you in life. It can guide your next steps."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so mad at the world, everything feels unfair.\"\n- Emotion: anger, Entry: \"Still fuming, I don’t know how to let it go.\"\n- Emotion: neutral, Entry: \"Trying to find peace, but it’s tough.\"",
+    "output": "It seems like you’re carrying a lot of anger. To help release some of it, try a quick physical activity: Do 10 jumping jacks or shake out your arms and legs. It can help dissipate some of that energy."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I have a big exam coming up and I’m not ready.\"\n- Emotion: anxiety, Entry: \"Still cramming, I feel overwhelmed.\"\n- Emotion: neutral, Entry: \"Trying to study, but it’s hard to focus.\"",
+    "output": "It sounds like the exam is causing you a lot of stress. Before you dive back in, try this: Set a timer for 5 minutes and do a brain dump—write down everything you’re worried about. It can help clear your mind for studying."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I had a great date night with my partner, it was so needed.\"\n- Emotion: joy, Entry: \"Still feeling connected and happy.\"\n- Emotion: neutral, Entry: \"Back to daily life, but cherishing the memory.\"",
+    "output": "It’s wonderful to see you had such a great date night! To keep that connection strong, how about planning your next date night now? Even if it’s just a movie night at home, it can give you something to look forward to."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m not making a difference in the world.\"\n- Emotion: sadness, Entry: \"Still feeling insignificant, it’s discouraging.\"\n- Emotion: neutral, Entry: \"Trying to find meaning, but it’s hard.\"",
+    "output": "It seems like you’re feeling a lack of purpose. Even small actions can matter. Try this: Do one kind thing for someone today, like holding a door or sending a nice message. It can remind you of your impact."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so frustrated with my body, it won’t cooperate.\"\n- Emotion: anger, Entry: \"Still mad, I feel betrayed by my own self.\"\n- Emotion: neutral, Entry: \"Trying to accept it, but it’s tough.\"",
+    "output": "It sounds like you’re really frustrated with your body. It’s okay to feel that way. Try this: Place your hand on your heart and take three deep breaths, saying ‘I am doing my best’ with each one. It can help you find some compassion."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I’m worried about my child’s behavior at school.\"\n- Emotion: anxiety, Entry: \"Still concerned, I don’t know how to help.\"\n- Emotion: neutral, Entry: \"Trying to stay calm, but it’s hard.\"",
+    "output": "It seems like your child’s behavior is causing you worry. Before you act, try a quick visualization: Imagine your child succeeding and feeling proud. Hold that image for a minute. It can help you approach the situation with hope."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I finally organized my space, it feels so good!\"\n- Emotion: joy, Entry: \"Still enjoying the clarity and calm.\"\n- Emotion: neutral, Entry: \"Now maintaining it, but it’s worth it.\"",
+    "output": "Congratulations on organizing your space! To keep that clarity, how about setting a 5-minute timer each day to tidy up? It can help you maintain that sense of calm."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m not where I should be in life.\"\n- Emotion: sadness, Entry: \"Still comparing myself to others, it’s painful.\"\n- Emotion: neutral, Entry: \"Trying to focus on my own journey, but it’s hard.\"",
+    "output": "It seems like comparison is causing you pain. Everyone’s path is different. Try this: Write down three things you’re grateful for in your life right now. It can help you appreciate your unique journey."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so mad at the traffic, it ruined my plans.\"\n- Emotion: anger, Entry: \"Still fuming, I hate being late.\"\n- Emotion: neutral, Entry: \"Trying to let it go, but it’s tough.\"",
+    "output": "It sounds like traffic really disrupted your day. To help release that anger, try a quick stretch: Reach your arms up high, then bend forward and touch your toes. It can help you physically let go of the tension."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I have to give a speech tomorrow and I’m terrified.\"\n- Emotion: anxiety, Entry: \"Still nervous, I don’t want to mess up.\"\n- Emotion: neutral, Entry: \"Practicing, but still worried.\"",
+    "output": "It seems like public speaking is causing you anxiety. Before you practice again, try this: Stand tall, take a deep breath, and say, ‘I am capable and prepared.’ It can boost your confidence."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I had a great therapy session, I feel lighter.\"\n- Emotion: joy, Entry: \"Still processing, but feeling hopeful.\"\n- Emotion: neutral, Entry: \"Back to daily life, but carrying the insights.\"",
+    "output": "It’s wonderful to see your therapy session was helpful! To integrate those insights, how about writing down one key takeaway and posting it somewhere you’ll see it daily? It can keep the momentum going."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m not appreciated at work.\"\n- Emotion: sadness, Entry: \"Still feeling undervalued, it’s demotivating.\"\n- Emotion: neutral, Entry: \"Trying to stay positive, but it’s hard.\"",
+    "output": "It sounds like you’re feeling unappreciated at work. Your worth isn’t defined by others’ recognition. Try this: List three ways you’ve contributed positively at work this week. It can help you see your value."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so mad at my roommate for not cleaning up.\"\n- Emotion: anger, Entry: \"Still frustrated, it’s disrespectful.\"\n- Emotion: neutral, Entry: \"Trying to address it calmly, but it’s tough.\"",
+    "output": "It seems like your roommate’s behavior is really bothering you. Before you confront them, try a quick visualization: Imagine the conversation going well, with both of you understanding each other. It can help you approach it with a clearer mind."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I’m worried about my aging parents, I don’t know how to help.\"\n- Emotion: anxiety, Entry: \"Still concerned, it’s a lot to handle.\"\n- Emotion: neutral, Entry: \"Trying to be there for them, but it’s hard.\"",
+    "output": "It sounds like your parents’ aging is causing you worry. It’s a tough situation. How about calling them just to say ‘I love you’? It can mean a lot to both of you."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I finally took a day off, it was so refreshing.\"\n- Emotion: joy, Entry: \"Still feeling recharged and happy.\"\n- Emotion: neutral, Entry: \"Back to work, but with a better mindset.\"",
+    "output": "It’s great to see you took some time for yourself! To keep that refreshed feeling, how about scheduling your next day off now? Even if it’s weeks away, having it on the calendar can give you something to look forwardAST to."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m not living my best life.\"\n- Emotion: sadness, Entry: \"Still feeling unfulfilled, it’s disheartening.\"\n- Emotion: neutral, Entry: \"Trying to make changes, but it’s hard.\"",
+    "output": "It seems like you’re feeling unfulfilled right now. Small changes can make a difference. Try this: Choose one area of your life to improve, like sleep or exercise, and set a tiny goal for it this week."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so mad at the customer service, they were no help.\"\n- Emotion: anger, Entry: \"Still frustrated, I feel powerless.\"\n- Emotion: neutral, Entry: \"Trying to let it go, but it’s tough.\"",
+    "output": "It sounds like the customer service experience really upset you. To help release that frustration, try a quick physical activity: Punch a pillow or do a few air punches. It can help you physically let go of the anger."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I have to meet new people tomorrow and I’m dreading it.\"\n- Emotion: anxiety, Entry: \"Still nervous, I’m not good at small talk.\"\n- Emotion: neutral, Entry: \"Preparing myself, but still worried.\"",
+    "output": "It seems like meeting new people is causing you anxiety. Before you go, try this: Think of three open-ended questions you can ask to start a conversation. It can take the pressure off you and make it easier."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I had a great meditation session, I feel so peaceful.\"\n- Emotion: joy, Entry: \"Still carrying that calm with me.\"\n- Emotion: neutral, Entry: \"Back to daily life, but feeling centered.\"",
+    "output": "It’s wonderful to see your meditation session was so beneficial! To keep that peace, how about setting a reminder to take three deep breaths every hour? It can help you stay centered throughout the day."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m not making progress in therapy.\"\n- Emotion: sadness, Entry: \"Still feeling stuck, it’s frustrating.\"\n- Emotion: neutral, Entry: \"Trying to be patient, but it’s hard.\"",
+    "output": "It sounds like you’re frustrated with your therapy progress. Healing isn’t linear. Try this: Write down one small insight or change you’ve noticed since starting therapy. It can help you see your growth."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so mad at my boss for the unfair workload.\"\n- Emotion: anger, Entry: \"Still resentful, it’s too much.\"\n- Emotion: neutral, Entry: \"Trying to manage, but it’s tough.\"",
+    "output": "It seems like your workload is really overwhelming you. Before you tackle it, try a quick grounding exercise: Feel your feet on the floor, take a deep breath, and remind yourself, ‘I can handle this one step at a time.’"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I’m worried about my upcoming move, it’s a big change.\"\n- Emotion: anxiety, Entry: \"Still nervous, I don’t know what to expect.\"\n- Emotion: neutral, Entry: \"Packing and preparing, but still anxious.\"",
+    "output": "It sounds like your move is causing you a lot of anxiety. Change can be scary. How about creating a small ‘comfort kit’ for your first day in the new place? Include a favorite snack, a cozy item, or a photo that makes you smile."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I finally got a good night’s sleep, I feel so much better.\"\n- Emotion: joy, Entry: \"Still feeling rested and clear-headed.\"\n- Emotion: neutral, Entry: \"Hoping to make this a habit.\"",
+    "output": "It’s great to see you got some good sleep! To help make it a habit, how about setting a consistent bedtime and creating a quick wind-down routine, like reading or stretching for 5 minutes before bed?"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m not connecting with my friends anymore.\"\n- Emotion: sadness, Entry: \"Still feeling distant, it’s lonely.\"\n- Emotion: neutral, Entry: \"Trying to reach out, but it’s hard.\"",
+    "output": "It seems like you’re feeling disconnected from your friends. It’s okay to feel that way. How about sending a simple message to one friend, like ‘Hey, thinking of you. How’s your week going?’ It can help bridge the gap."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so mad at myself for procrastinating again.\"\n- Emotion: anger, Entry: \"Still kicking myself, I should know better.\"\n- Emotion: neutral, Entry: \"Trying to get back on track, but it’s tough.\"",
+    "output": "It sounds like you’re really frustrated with yourself for procrastinating. It’s a common struggle. Try this: Set a timer for 5 minutes and start on the task, promising yourself you can stop after that if you want. Often, starting is the hardest part."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anxiety, Entry: \"I have to confront my partner about something, and I’m scared.\"\n- Emotion: anxiety, Entry: \"Still dreading the conversation, I don’t want conflict.\"\n- Emotion: neutral, Entry: \"Preparing what to say, but still nervous.\"",
+    "output": "It seems like the upcoming conversation is causing you anxiety. Before you talk, try a quick role-play: Imagine the conversation going well, with both of you listening and understanding. It can help you feel more prepared."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: joy, Entry: \"I had a great yoga session, I feel so balanced.\"\n- Emotion: joy, Entry: \"Still feeling the benefits, might do it again tomorrow.\"\n- Emotion: neutral, Entry: \"Back to routine, but carrying the calm.\"",
+    "output": "It’s wonderful to see your yoga session was so beneficial! To keep that balance, how about trying a 2-minute stretch or pose when you wake up tomorrow? It can set a positive tone for the day."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sadness, Entry: \"I feel like I’m not achieving my dreams.\"\n- Emotion: sadness, Entry: \"Still feeling unfulfilled, it’s discouraging.\"\n- Emotion: neutral, Entry: \"Trying to redefine success, but it’s hard.\"",
+    "output": "It sounds like you’re feeling disappointed with your progress. Dreams evolve. Try this: Write down one small step you can take this week towards a current goal. It can help you feel more in control."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: anger, Entry: \"I’m so mad at the news, it’s overwhelming.\"\n- Emotion: anger, Entry: \"Still upset, I feel helpless.\"\n- Emotion: neutral, Entry: \"Trying to focus on what I can control, but it’s tough.\"",
+    "output": "It seems like the news is really affecting you. To help manage that, try a quick digital detox: Turn off your devices for 5 minutes and do something tactile, like doodling or kneading dough. It can help you disconnect and recharge."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: frustration, Entry: \"My partner never listens when I talk about work stress.\"\n- Emotion: anger, Entry: \"Got into another pointless argument over household chores.\"\n- Emotion: sadness, Entry: \"Feeling disconnected in my relationship tonight.\"",
+    "output": "Relationship tensions can build when we're stressed. Try this: Before your next conversation, write down 3 things you appreciate about your partner. Starting from this positive space can create more openness."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: exhaustion, Entry: \"Only slept 4 hours again last night.\"\n- Emotion: fatigue, Entry: \"Could barely keep my eyes open in meetings.\"\n- Emotion: anxiety, Entry: \"Worried this insomnia is affecting my work performance.\"",
+    "output": "Your body is asking for rest. Right now, set a reminder for 9 PM to begin a wind-down ritual: dim lights, no screens, and 5 minutes of deep breathing. Consistent small steps rebuild sleep health."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: overwhelm, Entry: \"My to-do list has 30 items and I'm paralyzed.\"\n- Emotion: anxiety, Entry: \"Keep forgetting important deadlines at work.\"\n- Emotion: frustration, Entry: \"Can't focus on anything for more than 5 minutes.\"",
+    "output": "When everything feels urgent, start small. Pick just ONE task that would make you feel accomplished if completed today. Set a timer for 15 minutes and give it your full attention."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: loneliness, Entry: \"Haven't had a meaningful conversation in days.\"\n- Emotion: sadness, Entry: \"Scrolled through social media seeing friends together.\"\n- Emotion: neutral, Entry: \"Just worked and ate alone again today.\"",
+    "output": "Connection starts with small steps. Reach out to one person right now with a simple message: 'Thinking of you. How's your week going?' Authentic outreach often sparks warmth."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: excitement, Entry: \"Got accepted to the grad program I wanted!\"\n- Emotion: anxiety, Entry: \"Nervous about moving to a new city alone.\"\n- Emotion: joy, Entry: \"Celebrated with my favorite dessert tonight.\"",
+    "output": "Wonderful news! To ground your excitement, take 3 minutes to write down one small step you can take this week to prepare for the transition. Future-you will appreciate this."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: grief, Entry: \"Today marks one year since Mom passed.\"\n- Emotion: nostalgia, Entry: \"Found her favorite recipe card while cleaning.\"\n- Emotion: sadness, Entry: \"Wish I could hear her laugh again.\"",
+    "output": "Honoring memories can be healing. Light a candle and share one favorite memory aloud as if she's with you. Our loved ones live on in our stories."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: apathy, Entry: \"Haven't felt excited about anything in weeks.\"\n- Emotion: numbness, Entry: \"Just going through daily motions without purpose.\"\n- Emotion: fatigue, Entry: \"Even small decisions feel exhausting.\"",
+    "output": "When joy feels distant, engage your senses. Step outside and notice: 1 thing you see, 1 you hear, 1 you smell. Sensory awareness gently reconnects us to the present."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: shame, Entry: \"Ate emotionaly all weekend and feel disgusting.\"\n- Emotion: regret, Entry: \"Why can't I stick to healthy habits?\"\n- Emotion: disappointment, Entry: \"Avoided the scale this morning.\"",
+    "output": "Self-compassion creates lasting change. Place your hand on your heart and say: 'This is a moment of struggle. I accept myself as I am right now.' Start fresh with your next meal."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: overwhelm, Entry: \"My elderly parents need more care than I can provide.\"\n- Emotion: guilt, Entry: \"Snapped at Dad when he repeated his question.\"\n- Emotion: exhaustion, Entry: \"No time for my own needs between work and caregiving.\"",
+    "output": "Caregivers need care too. Today, claim 10 minutes just for you - perhaps a walk around the block. You'll return with more patience and presence."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: confusion, Entry: \"Not sure what career path makes sense anymore.\"\n- Emotion: uncertainty, Entry: \"My values seem to be changing.\"\n- Emotion: curiosity, Entry: \"Listened to a podcast about career transitions.\"",
+    "output": "Clarity emerges through exploration. Try this: Write down 3 activities where you lose track of time. Notice what they reveal about what energizes you."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: jealousy, Entry: \"My friend got promoted while I'm stuck.\"\n- Emotion: shame, Entry: \"Hate that I feel this way about someone I care about.\"\n- Emotion: determination, Entry: \"Need to step up my professional game.\"",
+    "output": "Comparison dims our light. Shift perspective: Write 3 strengths YOU bring to your work. Your unique contributions matter."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: nostalgia, Entry: \"Miss how simple life felt in college.\"\n- Emotion: restlessness, Entry: \"Feeling stuck in my routine.\"\n- Emotion: curiosity, Entry: \"Wondered what it'd be like to live abroad.\"",
+    "output": "Novelty revitalizes. Try something new this week: Take a different route home, try a new cuisine, or listen to unfamiliar music. Small changes spark freshness."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: financial anxiety, Entry: \"Medical bills are piling up.\"\n- Emotion: panic, Entry: \"Checked bank account - lower than expected.\"\n- Emotion: resolve, Entry: \"Need to create a budget this weekend.\"",
+    "output": "Financial stress needs practical compassion. Today, just list all income sources and expenses without judgment. Awareness creates control."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: creative block, Entry: \"Stared at blank canvas for an hour.\"\n- Emotion: frustration, Entry: \"My ideas feel stale and unoriginal.\"\n- Emotion: determination, Entry: \"Sketched thumbnails even though I hated them.\"",
+    "output": "Creativity needs play, not pressure. Try this: Set a timer for 5 minutes and create the WORST possible version of your project. Free yourself from expectations."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: parenting guilt, Entry: \"Yelled at kids during morning chaos.\"\n- Emotion: exhaustion, Entry: \"Touched out from constant demands.\"\n- Emotion: love, Entry: \"Watched them sleeping and felt overwhelming love.\"",
+    "output": "Parenting is imperfect love. Tonight after bedtime, write down one thing you did WELL as a parent today. Your efforts matter."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: social anxiety, Entry: \"Dreaded networking event tomorrow.\"\n- Emotion: self-doubt, Entry: \"Always feel like I don't belong.\"\n- Emotion: resolve, Entry: \"Prepared some conversation starters.\"",
+    "output": "Shift from 'performing' to connecting. Set a small goal: Have one authentic conversation where you ask about someone's interests. Genuine curiosity eases pressure."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: chronic pain, Entry: \"Back flared up again during work.\"\n- Emotion: frustration, Entry: \"Canceled plans because I couldn't move well.\"\n- Emotion: acceptance, Entry: \"Did gentle stretches before bed.\"",
+    "output": "Your body needs kindness. Set a phone reminder to pause every hour and do 30 seconds of mindful breathing. Small breaks prevent cumulative strain."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: climate anxiety, Entry: \"News about wildfires triggered me.\"\n- Emotion: helplessness, Entry: \"What can one person even do?\"\n- Emotion: resolve, Entry: \"Researched local conservation groups.\"",
+    "output": "Hope lives in action. Today, choose one small sustainable swap: reusable bag, meatless meal, or 5-minute shorter shower. Collective small acts create change."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: procrastination, Entry: \"Scrolled for hours instead of working.\"\n- Emotion: self-criticism, Entry: \"Why am I so lazy?\"\n- Emotion: curiosity, Entry: \"Wondered if there's an underlying fear.\"",
+    "output": "Procrastination often masks perfectionism. Try: Work on your task for just 5 minutes with permission to do it poorly. Starting breaks inertia."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: post-vacation blues, Entry: \"Real life feels so gray after Hawaii.\"\n- Emotion: monotony, Entry: \"Endless laundry and emails.\"\n- Emotion: gratitude, Entry: \"Looked at photos and smiled.\"",
+    "output": "Bring vacation energy home. Choose one small ritual from your trip to incorporate daily - perhaps morning tea on the porch or evening music time."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: betrayal, Entry: \"Found messages proving he cheated.\"\n- Emotion: rage, Entry: \"Smashed a mug against the wall.\"\n- Emotion: devastation, Entry: \"How do I start over at 45?\"",
+    "output": "Your pain deserves space. Right now, write one sentence expressing your rawest feeling then tear it up. Physical release helps process emotions."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: imposter syndrome, Entry: \"They'll discover I'm not qualified.\"\n- Emotion: anxiety, Entry: \"Double-checked work 10 times.\"\n- Emotion: pride, Entry: \"Received positive feedback today.\"",
+    "output": "Competence and doubt can coexist. Write down today's positive feedback word-for-word. Keep this evidence for moments of doubt."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: tech burnout, Entry: \"Screen headaches after 10 hours of Zoom.\"\n- Emotion: eye strain, Entry: \"Vision getting blurry by afternoon.\"\n- Emotion: resolve, Entry: \"Ordered blue light glasses.\"",
+    "output": "Digital boundaries preserve wellbeing. Set a rule: For every 50 minutes of screen time, take 10 minutes looking out a window at natural light."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: empty nest, Entry: \"Quiet house feels unnerving.\"\n- Emotion: pride, Entry: \"Daughter texted about her first college class.\"\n- Emotion: loss, Entry: \"Miss our morning chats.\"",
+    "output": "New chapters need new rituals. Start a weekly tradition: Write her a physical letter sharing your week. Connection evolves but remains."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: activism fatigue, Entry: \"Fighting injustice feels endless.\"\n- Emotion: righteous anger, Entry: \"Witnessed more discrimination today.\"\n- Emotion: hope, Entry: \"Saw allies speaking up powerfully.\"",
+    "output": "Sustainable advocacy requires self-care. Tonight, consciously unplug - take a bath, watch comedy, or cook a nourishing meal. You can't pour from an empty cup."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: reunion anxiety, Entry: \"Seeing toxic family members this weekend.\"\n- Emotion: dread, Entry: \"Already rehearsing arguments in my head.\"\n- Emotion: resolve, Entry: \"Set boundaries with my therapist.\"",
+    "output": "Protect your peace. Create an exit phrase: 'Excuse me, I need some air' and identify a safe space (bedroom/park) where you can retreat if overwhelmed."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: gym intimidation, Entry: \"Felt judged at the weight section.\"\n- Emotion: body insecurity, Entry: \"Avoided mirrors in locker room.\"\n- Emotion: courage, Entry: \"Went anyway for 20 minutes.\"",
+    "output": "Your presence belongs everywhere. Next time, wear headphones with empowering music and focus solely on YOUR movement. Confidence grows through showing up."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: artistic vulnerability, Entry: \"Shared my poetry for the first time.\"\n- Emotion: fear, Entry: \"Waiting for critique feels terrifying.\"\n- Emotion: pride, Entry: \"Did it despite shaking hands.\"",
+    "output": "Bravery deserves celebration. Treat yourself to something sensory - a special tea, warm blanket, or favorite song. Honoring courage builds resilience."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: spiritual doubt, Entry: \"Questioning my lifelong beliefs.\"\n- Emotion: confusion, Entry: \"Where do I find meaning now?\"\n- Emotion: openness, Entry: \"Started reading about different philosophies.\"",
+    "output": "Questioning deepens understanding. Sit quietly and ask: 'What feels true today?' No need for permanent answers - just notice what resonates now."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: pet loss, Entry: \"House feels empty without Buddy's greeting.\"\n- Emotion: grief, Entry: \"Cried holding his collar.\"\n- Emotion: love, Entry: \"Planted flowers on his grave.\"",
+    "output": "Love transforms but never ends. Create a small memorial: Frame a favorite photo or light a candle during times you'd usually cuddle."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: career stagnation, Entry: \"No growth opportunities at current job.\"\n- Emotion: fear, Entry: \"Too scared to leave the stability.\"\n- Emotion: curiosity, Entry: \"Updated my LinkedIn profile.\"",
+    "output": "Transitions begin with exploration. This week, have one informal conversation with someone in a field you're curious about. Information reduces fear."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: midlife questioning, Entry: \"Is this all there is?\"\n- Emotion: restlessness, Entry: \"Fantasized about selling everything and traveling.\"\n- Emotion: practicality, Entry: \"Researched part-time remote work.\"",
+    "output": "Meaning evolves. Try this: List 3 experiences that made you feel truly alive in the past year. Notice patterns to guide your next chapter."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: social justice rage, Entry: \"Another unjust verdict today.\"\n- Emotion: helplessness, Entry: \"Donated but it feels insufficient.\"\n- Emotion: solidarity, Entry: \"Joined a virtual vigil.\"",
+    "output": "Channel righteous anger constructively. Write one letter to an elected official today - even 3 sentences matters. Collective voices create change."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: creative envy, Entry: \"Saw an artist's masterpiece and felt inferior.\"\n- Emotion: inspiration, Entry: \"Tried their technique in my sketchbook.\"\n- Emotion: self-criticism, Entry: \"Mine looks amateurish.\"",
+    "output": "All masters were beginners. Practice 'process praise': Thank yourself for showing up to create rather than judging the output. Art is a journey."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: reunion joy, Entry: \"Hugged my sister after 3 years apart!\"\n- Emotion: overwhelm, Entry: \"Too many family demands already.\"\n- Emotion: gratitude, Entry: \"Hearing Dad's laugh was priceless.\"",
+    "output": "Balance connection with boundaries. Schedule one hour alone tomorrow - perhaps a morning walk - to recharge amidst the togetherness."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: creative flow, Entry: \"Wrote 2000 words effortlessly!\"\n- Emotion: doubt, Entry: \"Is this actually good or just word vomit?\"\n- Emotion: accomplishment, Entry: \"Finished a chapter draft.\"",
+    "output": "Trust your creative surges. Don't edit yet - celebrate with a special treat and let the draft breathe. Perspective comes with distance."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: climate grief, Entry: \"Cried watching glacier documentary.\"\n- Emotion: guilt, Entry: \"Drove when I could've walked.\"\n- Emotion: resolve, Entry: \"Composted food waste today.\"",
+    "output": "Your care matters. Convert grief to action: Join one local environmental group meeting this month. Community action heals despair."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: language insecurity, Entry: \"Stumbled in Spanish conversation again.\"\n- Emotion: embarrassment, Entry: \"Native speaker corrected my grammar.\"\n- Emotion: perseverance, Entry: \"Practiced for 15 minutes anyway.\"",
+    "output": "Courage is communicating despite imperfection. Next time, smile and say: 'I'm still learning - thank you for your patience.' Most people admire learners."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: athletic injury, Entry: \"Doctor said no running for 6 weeks.\"\n- Emotion: identity loss, Entry: \"Running IS my stress relief.\"\n- Emotion: curiosity, Entry: \"Researched swimming techniques.\"",
+    "output": "Your athlete identity remains. Explore 'What CAN I do?' - perhaps upper body weights or seated yoga. Adaptation reveals new strengths."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: election anxiety, Entry: \"Doomscrolling political news.\"\n- Emotion: helplessness, Entry: \"Outcome feels out of my hands.\"\n- Emotion: purpose, Entry: \"Volunteered as a poll worker.\"",
+    "output": "Focus on your sphere of influence. Limit news to 10 minutes twice daily and use reclaimed time for local community action. Proximity empowers."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: public speaking fear, Entry: \"Panic attack during rehearsal.\"\n- Emotion: shame, Entry: \"Voice cracked in front of colleagues.\"\n- Emotion: courage, Entry: \"Signed up for Toastmasters.\"",
+    "output": "Nervousness means you care. Before speaking, press your feet firmly into the ground and take 3 slow breaths. Grounding reduces floaty anxiety."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: ADHD overwhelm, Entry: \"Started 7 tasks, finished none.\"\n- Emotion: frustration, Entry: \"Lost important keys again.\"\n- Emotion: self-compassion, Entry: \"Set phone reminders for tomorrow.\"",
+    "output": "Work WITH your brain. Today, choose ONE priority task and set a 25-minute timer. Hide your phone until the timer dings. Small victories build momentum."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: cultural homesickness, Entry: \"Missed Diwali celebrations back home.\"\n- Emotion: isolation, Entry: \"No one here understands the traditions.\"\n- Emotion: connection, Entry: \"Video-called family during prayers.\"",
+    "output": "Bring home to your space. Create a small ritual: Light a candle at dusk and name 3 things you're grateful for from your culture."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: creative jealousy, Entry: \"Peer got published before me.\"\n- Emotion: insecurity, Entry: \"Maybe I'm not talented enough.\"\n- Emotion: motivation, Entry: \"Submitted to 3 new journals.\"",
+    "output": "Another's success doesn't dim yours. Write down: 'Their win proves publication is possible' and return to YOUR unique voice. Art isn't a race."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: retirement anxiety, Entry: \"Last workday after 40 years.\"\n- Emotion: loss, Entry: \"Who am I without my job title?\"\n- Emotion: excitement, Entry: \"Booked a pottery class.\"",
+    "output": "Honor this transition. Create a 'retirement certificate' listing your non-work identities: 'Expert listener,' 'Curious learner,' 'Reliable friend.'"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: infertility grief, Entry: \"Another negative pregnancy test.\"\n- Emotion: isolation, Entry: \"Can't bear baby shower invites.\"\n- Emotion: hope, Entry: \"Scheduled consultation with specialist.\"",
+    "output": "Protect your tender heart. Create a 'safe space' ritual: Perhaps a warm bath with lavender when grief feels overwhelming. Your feelings deserve gentleness."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: menopause frustration, Entry: \"Night sweats ruined sleep again.\"\n- Emotion: embarrassment, Entry: \"Hot flash during important meeting.\"\n- Emotion: advocacy, Entry: \"Researched HRT options.\"",
+    "output": "Your body is navigating change. Keep a cooling kit handy: Portable fan, water spritzer, and cotton layers. Practical comfort empowers."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: work bullying, Entry: \"Manager mocked me in front of team.\"\n- Emotion: humiliation, Entry: \"Froze instead of responding.\"\n- Emotion: determination, Entry: \"Documented incident for HR.\"",
+    "output": "This reflects THEIR failing, not yours. Practice power poses in the mirror tonight. Reclaiming physical presence rebuilds confidence."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: moving stress, Entry: \"Boxes everywhere, can't find essentials.\"\n- Emotion: overwhelm, Entry: \"Unpacking feels impossible.\"\n- Emotion: accomplishment, Entry: \"Set up the bed first.\"",
+    "output": "Prioritize sanctuary spaces. Today, unpack just the kitchen and bedroom. Order takeout and celebrate having a functional nest amid chaos."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: political disagreement, Entry: \"Fought with sibling over election.\"\n- Emotion: regret, Entry: \"Said things I didn't mean.\"\n- Emotion: love, Entry: \"Remembered how she cared for me when sick.\"",
+    "output": "Values disagreements need relationship-first approaches. Text: 'Our bond matters more than politics. Coffee soon?' Reconnecting bridges divides."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sobriety temptation, Entry: \"Passed my old bar and craved a drink.\"\n- Emotion: pride, Entry: \"Called sponsor instead of going in.\"\n- Emotion: vulnerability, Entry: \"Admitted cravings in meeting.\"",
+    "output": "Every resisted urge builds strength. Create a 'distraction kit': Favorite sparkling water, inspiring podcast queue, and emergency contact list."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: teaching burnout, Entry: \"Grading 100 papers feels crushing.\"\n- Emotion: compassion fatigue, Entry: \"Can't absorb more student problems.\"\n- Emotion: dedication, Entry: \"Stayed late to tutor struggling learner.\"",
+    "output": "Educators need intellectual oxygen. Tomorrow, teach ONE lesson purely for joy - perhaps sharing a personal passion. Reigniting your spark lights theirs."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: survivor guilt, Entry: \"Why did I recover when others didn't?\"\n- Emotion: confusion, Entry: \"Don't deserve this second chance.\"\n- Emotion: gratitude, Entry: \"Visited hospital to thank my care team.\"",
+    "output": "Your feelings honor those still struggling. Create a 'purpose ritual': Each morning, name one way you'll use your recovery to help others - perhaps volunteering or advocacy work. Your survival can become meaning."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: sensory overload, Entry: \"Store lights and noise triggered migraine.\"\n- Emotion: isolation, Entry: \"Declined another social invitation.\"\n- Emotion: self-advocacy, Entry: \"Bought noise-canceling headphones.\"",
+    "output": "Protecting your nervous system is wisdom. Create an 'exit toolkit': Sunglasses, earplugs, and a pre-written note explaining, 'I need quiet now.' Empower yourself in overwhelming spaces."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: ethical dilemma, Entry: \"Asked to compromise values at work.\"\n- Emotion: financial fear, Entry: \"Can't afford to lose this job.\"\n- Emotion: integrity, Entry: \"Researched whistleblower protections.\"",
+    "output": "Values clarification brings clarity. Write two columns: 'Non-negotiables' vs. 'Flexible principles.' Seeing them physically often reveals hidden paths forward."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: religious deconstruction, Entry: \"Left my faith community after decades.\"\n- Emotion: freedom, Entry: \"Finally asking my own questions!\"\n- Emotion: grief, Entry: \"Miss the certainty I once had.\"",
+    "output": "Rebuilding meaning takes courage. Start a 'question journal' - write one philosophical question daily without needing answers. Curiosity is spiritual exploration."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: neurodivergent masking, Entry: \"Exhausted from pretending to be 'normal'.\"\n- Emotion: authenticity, Entry: \"Shared my stimming with trusted friend.\"\n- Emotion: fear, Entry: \"Worried about workplace judgment.\"",
+    "output": "Your authentic self deserves space. Designate one 'unmasking hour' daily at home - move, vocalize, or engage in interests freely. Reclaiming your nature is healing."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: intergenerational trauma, Entry: \"Recognized my anger echoes Dad's pain.\"\n- Emotion: hope, Entry: \"Broke the cycle by apologizing to my child.\"\n- Emotion: weariness, Entry: \"This healing work feels endless.\"",
+    "output": "Breaking chains is heroic work. Place a meaningful object (stone, shell) on your desk - touch it when overwhelmed, saying: 'This ends with me.' Symbolic acts anchor resolve."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: displacement grief, Entry: \"Climate migration took my homeland.\"\n- Emotion: rootlessness, Entry: \"Can't connect to this new place.\"\n- Emotion: resilience, Entry: \"Planted native seeds from home.\"",
+    "output": "Carry your homeland within. Create a 'sensory memory box': Soil from home, traditional spices, or ancestral music. Engage one sense daily to maintain connection."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: artistic blockage, Entry: \"Creative well feels dry after critique.\"\n- Emotion: vulnerability, Entry: \"Shared unfinished work anyway.\"\n- Emotion: shame, Entry: \"They said it was 'derivative'.\"",
+    "output": "Critique reflects their perspective, not your worth. Reconnect with your 'why': Write your core artistic purpose on a card. Keep it visible when creating."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: digital addiction, Entry: \"Wasted 6 hours on TikTok again.\"\n- Emotion: self-disgust, Entry: \"Why can't I control this?\"\n- Emotion: determination, Entry: \"Installed app blockers.\"",
+    "output": "Behavior change starts compassionately. Set a 'phone cemetery' - a box where it lives during focused hours. Add comforting items (cloth, lavender) to make detachment pleasant."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: chronic illness uncertainty, Entry: \"New symptoms; terrified it's progressing.\"\n- Emotion: medical trauma, Entry: \"Dread another dismissive doctor.\"\n- Emotion: advocacy, Entry: \"Prepared symptom timeline document.\"",
+    "output": "Your expertise in your body matters. Before appointments, practice aloud: 'This symptom impacts my daily life by...' Rehearsing empowers clear communication."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: gender dysphoria, Entry: \"Mirrors feel like enemies today.\"\n- Emotion: euphoria, Entry: \"Wore outfit that aligns with my truth.\"\n- Emotion: exhaustion, Entry: \"Tired of constant self-explanation.\"",
+    "output": "Your identity is valid beyond expression. Create a 'validation touchstone' - a smooth stone to carry. Rub it when dysphoria strikes, whispering: 'I exist fully as myself.'"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: entrepreneurial burnout, Entry: \"My startup consumes every waking hour.\"\n- Emotion: identity loss, Entry: \"Can't remember hobbies beyond work.\"\n- Emotion: insight, Entry: \"Scheduled first weekend off in months.\"",
+    "output": "Sustainable success needs balance. Try the '5-4-3-2-1 reset': Name 5 things you see, 4 you feel, 3 you hear, 2 you smell, 1 you taste. Sensory grounding restores perspective."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: racial battle fatigue, Entry: \"Another microaggression at work today.\"\n- Emotion: fury, Entry: \"Had to smile through the pain again.\"\n- Emotion: community, Entry: \"Called BIPOC support group.\"",
+    "output": "Preserving your dignity is resistance. Designate a 'sanctuary space' - physical or virtual - where you can express unfiltered emotions safely after such events."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: pregnancy ambivalence, Entry: \"Not sure I want this baby anymore.\"\n- Emotion: shame, Entry: \"Can't admit this to anyone.\"\n- Emotion: self-honesty, Entry: \"Researched all options thoroughly.\"",
+    "output": "Your feelings deserve nonjudgmental space. Write anonymous letters - one arguing 'keep,' one 'other path' - then sleep on them. Clarity often emerges from externalizing."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: dissociative episode, Entry: \"Lost two hours; no memory of driving home.\"\n- Emotion: terror, Entry: \"What if this happens with my kids?\"\n- Emotion: proactive, Entry: \"Booked trauma therapist appointment.\"",
+    "output": "Safety first: Create 'grounding kits' for car/home - strong mints, textured objects, photos of loved ones. Use them when feeling spaced out to reconnect with present."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: ethical vegan distress, Entry: \"Saw animal cruelty footage; can't unsee.\"\n- Emotion: helplessness, Entry: \"The suffering feels endless.\"\n- Emotion: purpose, Entry: \"Organized local sanctuary fundraiser.\"",
+    "output": "Transform anguish into action: Keep a 'kindness ledger' - note daily vegan choices and their impact. Seeing cumulative good combats helplessness."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: late-diagnosed neurodivergence, Entry: \"Mourning the life I could've had.\"\n- Emotion: relief, Entry: \"Finally understand why I struggled.\"\n- Emotion: overload, Entry: \"Information paralysis about accommodations.\"",
+    "output": "Integration is a journey. Start with one sensory tweak - perhaps dimmer lights or fidget tools. Small environmental changes build self-trust incrementally."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: custodial parent burnout, Entry: \"No co-parent support for 3 weeks.\"\n- Emotion: resentment, Entry: \"Children's needs feel bottomless.\"\n- Emotion: love, Entry: \"Made them laugh at dinner despite exhaustion.\"",
+    "output": "Solo parenting is heroic labor. Tonight after bedtime, practice 'replenishing touch': Massage your own hands with lotion, thanking them for their constant care."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: whistleblower retaliation, Entry: \"Colleagues are freezing me out.\"\n- Emotion: righteousness, Entry: \"Would do it again for what's right.\"\n- Emotion: isolation, Entry: \"Ate lunch alone again today.\"",
+    "output": "Integrity sometimes walks alone. Create a 'moral compass card' - list your core values. Refer to it when doubt surfaces; let it anchor your conviction."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: linguistic limbo, Entry: \"Dreaming in neither native nor adopted language.\"\n- Emotion: cultural dislocation, Entry: \"Fully belong nowhere now.\"\n- Emotion: discovery, Entry: \"Started blending both languages in poetry.\"",
+    "output": "You inhabit a rich borderland. Keep a 'hybrid lexicon' notebook - invent words that capture unique cross-cultural experiences. Your voice bridges worlds."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: cancer recurrence fear, Entry: \"Every ache feels like it's back.\"\n- Emotion: hypervigilance, Entry: \"Checked body for lumps 10 times today.\"\n- Emotion: self-awareness, Entry: \"Recognized this as trauma response.\"",
+    "output": "Scanxiety is real. Set 'worry windows' - 10 minutes morning/evening for health concerns. Outside those times, say: 'I've scheduled time for you later.'"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: academic pressure, Entry: \"Parents want med school; I want art.\"\n- Emotion: guilt, Entry: \"Their sacrifices paid for my education.\"\n- Emotion: courage, Entry: \"Applied to design internship.\"",
+    "output": "Honoring parents doesn't mean becoming them. Write a 'hidden gratitude letter' thanking them for values you'll carry forward - work ethic, excellence - while pursuing your path."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: diplomatic spouse isolation, Entry: \"Another country, another loss of identity.\"\n- Emotion: adventure, Entry: \"Exploring local markets brings joy.\"\n- Emotion: invisibility, Entry: \"Introduced only as 'the wife'.\"",
+    "output": "Your identity transcends roles. Create a 'secret credential' practice - add your accomplishments to name tags or email signatures. 'Linguist, Photographer, Cultural Bridge' reclaims visibility."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: compulsive skin picking, Entry: \"Spent hours in bathroom mirror again.\"\n- Emotion: shame, Entry: \"Wore long sleeves in summer heat.\"\n- Emotion: self-compassion, Entry: \"Resisted urge for 20 minutes.\"",
+    "output": "Progress over perfection. Place loving-kindness notes on mirrors: 'You're doing your best.' Cover triggers with decorative contact paper. Environmental cues support change."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: climate migration grief, Entry: \"Sea took my ancestral village.\"\n- Emotion: ancestral connection, Entry: \"Recorded elders' stories before relocation.\"\n- Emotion: displacement, Entry: \"New high-rise apartment feels sterile.\"",
+    "output": "Carry your roots with you. Create a 'memory shrine' - sand from home, family photos, traditional crafts. Touch it daily while reciting names of ancestors."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: ethical non-monogamy judgment, Entry: \"Family called my relationship 'immoral'.\"\n- Emotion: confidence, Entry: \"Our communication is healthier than theirs.\"\n- Emotion: weariness, Entry: \"Tired of justifying my love.\"",
+    "output": "Your relational ethics are valid. Develop a mantra: 'Consent and joy define morality.' Repeat when criticized. Let unwavering conviction shield you."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: hair loss trauma, Entry: \"Chemo took my crowning glory.\"\n- Emotion: vulnerability, Entry: \"Went wigless in public for first time.\"\n- Emotion: redefinition, Entry: \"Tattooed beautiful scalp art.\"",
+    "output": "Beauty transforms, never disappears. Practice 'crown affirmations' while touching your head: 'I am resilient. I am authentic. I am complete as I am.'"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: compulsive hoarding, Entry: \"Couldn't discard broken toaster; heard Mom's voice.\"\n- Emotion: insight, Entry: \"Recognized scarcity trauma roots.\"\n- Emotion: overwhelm, Entry: \"Pathways in house disappearing.\"",
+    "output": "Healing happens inch by inch. Today, remove just one item. Thank it for past service, then release. Small victories build new neural pathways."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: hearing loss isolation, Entry: \"Group conversations became exhausting guesswork.\"\n- Emotion: advocacy, Entry: \"Asked for captions during meetings.\"\n- Emotion: grief, Entry: \"Miss spontaneous chats.\"",
+    "output": "Connection adapts beautifully. Curate 'communication menus' for friends: 'Text preferred for complex plans. FaceTime good for quick chats.' Clear needs deepen bonds."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: vasectomy regret, Entry: \"Finalized childfree choice; unexpected sadness surfaced.\"\n- Emotion: certainty, Entry: \"Know logically this was right.\"\n- Emotion: complexity, Entry: \"Allowing space for ambivalence.\"",
+    "output": "Life choices can hold multiple truths. Light two candles: One for grief over paths not taken, one for joy in chosen freedom. Both flames coexist."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: professional athlete retirement, Entry: \"Identity crisis after final match.\"\n- Emotion: loss, Entry: \"My body was my instrument.\"\n- Emotion: curiosity, Entry: \"Coaching kids' clinic next week.\"",
+    "output": "Your legacy transcends performance. Write a 'wisdom transfer list': Skills like discipline, resilience, teamwork. How might these serve new purposes?"
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: polycrisis overwhelm, Entry: \"Pandemic, war, inflation - too much collapse.\"\n- Emotion: numbness, Entry: \"Stopped reading news entirely.\"\n- Emotion: community care, Entry: \"Organized neighborhood mutual aid.\"",
+    "output": "Global healing starts locally. Practice 'micro-activism': Smile at strangers, water public plants, buy lemonade from kids. Small kindnesses rebuild collective resilience."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: misophonia rage, Entry: \"Partner's chewing made me want to scream.\"\n- Emotion: shame, Entry: \"Locked myself in bathroom to cope.\"\n- Emotion: communication, Entry: \"Shared my condition calmly later.\"",
+    "output": "Neurological responses aren't character flaws. Create 'sound buffers': Calming playlist, white noise machine. Use them preventively during triggering activities."
+  },
+  {
+    "instruction": "You are an empathetic and insightful wellness coach. Based on the user's recent journal entries, provide one actionable and supportive suggestion.",
+    "input": "Recent Entries:\n- Emotion: long COVID frustration, Entry: \"Crashed after simple grocery trip.\"\n- Emotion: grief, Entry: \"Mourning my energetic former self.\"\n- Emotion: pacing, Entry: \"Used timer for activity intervals.\"",
+    "output": "Listen to your body's new language. Implement the 'spoon theory': Assign energy 'spoons' to tasks, never spending more than half your daily reserve. Conservation enables recovery."
+  }
+]

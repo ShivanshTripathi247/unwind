@@ -1,0 +1,38 @@
+# Node.js dependencies
+/node_modules
+
+# Python virtual environment
+/venv
+
+# AI Models and other large artifacts
+# This ensures the folders themselves are ignored.
+/backend/mental_health_sentiment_model/
+/backend/mental_llm_merged_offline/
+
+# Build outputs and logs
+.next/
+/out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env
+.env*.local
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Misc
+.DS_Store
+*.pem
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
