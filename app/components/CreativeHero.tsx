@@ -97,6 +97,7 @@ export function CreativeHero() {
       }
 
       draw() {
+        if (!ctx) return;
         ctx.fillStyle = this.color
         ctx.beginPath()
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2)
@@ -113,6 +114,7 @@ export function CreativeHero() {
     function init() {
       particlesArray.length = 0
 
+      if (!canvas) return
       const canvasWidth = canvas.width / devicePixelRatio
       const canvasHeight = canvas.height / devicePixelRatio
 

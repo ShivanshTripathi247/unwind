@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import StreakCounter from "./components/StreakCounter";
 import { CreativeHero } from "./components/CreativeHero";
 import FloatingNavBar from "./components/FloatingNavBar";
-import FloatingHomeButton from "./components/FloatingHomeButton";
 
 export default function HomePage() {
   // State to hold the user's input text
@@ -47,7 +46,6 @@ export default function HomePage() {
   return (
     <>
       <FloatingNavBar />
-      <FloatingHomeButton />
       <main className="min-h-screen bg-gradient-to-b from-[#1a1333] via-[#1a1333] to-black text-white overflow-hidden font-sans">
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
           {/* Animated Gradient Blobs */}

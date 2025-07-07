@@ -29,14 +29,15 @@ export function HeroAnimation() {
 
     // Particle class
     class Particle {
-      x: number
-      y: number
-      size: number
-      speedX: number
-      speedY: number
-      color: string
+      x!: number 
+      y!: number
+      size!: number
+      speedX!: number
+      speedY!: number
+      color!: string
 
       constructor() {
+        if (!canvas) return
         this.x = (Math.random() * canvas.width) / devicePixelRatio
         this.y = (Math.random() * canvas.height) / devicePixelRatio
         this.size = Math.random() * 5 + 1
@@ -48,7 +49,7 @@ export function HeroAnimation() {
       update() {
         this.x += this.speedX
         this.y += this.speedY
-
+        if(!canvas) return
         if (this.x > canvas.width / devicePixelRatio || this.x < 0) {
           this.speedX = -this.speedX
         }
@@ -59,6 +60,7 @@ export function HeroAnimation() {
       }
 
       draw() {
+        if (!ctx) return
         ctx.fillStyle = this.color
         ctx.beginPath()
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2)

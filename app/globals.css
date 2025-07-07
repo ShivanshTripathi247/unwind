@@ -84,3 +84,42 @@ body {
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+@media (max-width: 768px) {
+  .glass-card {
+    border-radius: 1.2rem;
+    padding: 1.2rem !important;
+  }
+  .calendar-premium .react-calendar {
+    font-size: 1rem;
+    padding: 0.5rem 0.2rem;
+  }
+  .calendar-premium .react-calendar__tile {
+    min-width: 2.1rem;
+    min-height: 2.1rem;
+    font-size: 0.95rem;
+  }
+  .calendar-premium .react-calendar__navigation button {
+    font-size: 0.95rem;
+    padding: 0.3rem 0.5rem;
+  }
+  .calendar-premium .react-calendar__month-view__weekdays {
+    font-size: 0.95rem;
+  }
+  .text-4xl, .text-3xl, .text-2xl, .text-xl {
+    font-size: 1.2rem !important;
+  }
+  .p-10 { padding: 1.2rem !important; }
+  .p-8 { padding: 1rem !important; }
+  .p-6 { padding: 0.8rem !important; }
+  .mb-8, .mb-10, .mb-6 { margin-bottom: 1rem !important; }
+  .mt-10, .mt-6, .mt-8, .mt-26 { margin-top: 1rem !important; }
+  .rounded-3xl, .rounded-2xl, .rounded-xl { border-radius: 1rem !important; }
+  .shadow-2xl, .shadow-xl, .shadow-lg { box-shadow: 0 2px 8px 0 rgba(31,38,135,0.10) !important; }
+  .gap-14, .gap-10, .gap-12, .gap-8 { gap: 1.2rem !important; }
+  .max-w-5xl, .max-w-4xl, .max-w-2xl { max-width: 98vw !important; }
+  .w-full { width: 100vw !important; }
+  .min-h-screen { min-height: 100vh !important; }
+  .text-lg { font-size: 1rem !important; }
+  .text-base { font-size: 0.95rem !important; }
+}
