@@ -1,24 +1,23 @@
 import os
+import requests 
 from dotenv import load_dotenv
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify 
 from flask_cors import CORS
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoModelForCausalLM
-import torch
 from pymongo import MongoClient
-from datetime import datetime
-from collections import defaultdict # --- THIS IS THE FIX ---
-import spacy
-import random
+from datetime import datetime, timedelta
 from bson.objectid import ObjectId
+from urllib.parse import unquote
+import spacy
+from collections import defaultdict
 
+
+# Load environment variables from .env file
 load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
 
-# --- Setup Connections and Models ---
-# ... (Your existing model loading and MongoDB connection code)
-# Ensure all your models and connections are loaded here.
+# --- Setup Connections and Secrets ---
 CONNECTION_STRING = os.getenv("MONGO_URI") 
 client = MongoClient(CONNECTION_STRING)
 db = client['mental_health_db']
@@ -26,46 +25,107 @@ journal_collection = db['journal_entries']
 goals_collection = db['goals']
 user_stats_collection = db['user_stats']
 
-sentiment_model = AutoModelForSequenceClassification.from_pretrained("./backend/mental_health_sentiment_model")
-sentiment_tokenizer = AutoTokenizer.from_pretrained("./backend/mental_health_sentiment_model")
-suggestion_model = AutoModelForCausalLM.from_pretrained("./backend/mental_llm_merged_offline", device_map="auto")
-suggestion_tokenizer = AutoTokenizer.from_pretrained("./backend/mental_llm_merged_offline")
+print("Loading NLP model for insights...")
 nlp = spacy.load('en_core_web_sm')
-print("All connections and models loaded successfully!")
+print("Backend service initialized and ready to serve requests.")
+
+# Get Hugging Face secrets from environment variables
+HF_API_TOKEN = os.getenv("HF_API_TOKEN")
+HF_SENTIMENT_URL = os.getenv("HF_SENTIMENT_URL")
+HF_SUGGESTION_URL = os.getenv("HF_SUGGESTION_URL")
+# You will add this one later for the suggestion model
+
+print("Backend service initialized and ready to serve requests.")
 
 
-# --- Your existing endpoints (/predict, /history, /generate-suggestion, goals, /stats) ---
-# (No changes are needed for these functions. Ensure they are present.)
+# --- Predict Endpoint (Using Hugging Face) ---
 @app.route('/predict', methods=['POST'])
 def predict():
-    # ... (your existing predict code)
+    # This 'request' correctly refers to the INCOMING request from the browser
     data = request.get_json()
     text = data.get('text')
-    if not text: return jsonify({"error": "No text provided"}), 400
+    if not text:
+        return jsonify({"error": "No text provided"}), 400
+
+    # Prepare the outgoing request to send to Hugging Face
+    headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
+    payload = {"inputs": text}
+    
+    # This 'requests' correctly refers to the OUTGOING request library
+    response = requests.post(HF_SENTIMENT_URL, headers=headers, json=payload)
+    
+    # Error handling for the API call
+    if response.status_code != 200:
+        return jsonify({"error": "Failed to get prediction from Hugging Face endpoint", "details": response.text}), 500
+        
+    prediction_data = response.json()
+    predicted_label = prediction_data[0]['label']
+    
+    # Save the result to your MongoDB database
     current_time = datetime.utcnow()
-    inputs = sentiment_tokenizer(text, return_tensors="pt")
-    with torch.no_grad():
-        outputs = sentiment_model(**inputs)
-        predicted_class_id = torch.argmax(outputs.logits, dim=1).item()
-    predicted_label = sentiment_model.config.id2label[predicted_class_id]
     entry_document = {"text": text, "emotion": predicted_label, "timestamp": current_time}
     journal_collection.insert_one(entry_document)
-    user_id = "main_user"
-    stats = user_stats_collection.find_one_and_update(
-        {'user_id': user_id},
-        {'$setOnInsert': {'user_id': user_id, 'streak': 0, 'last_entry_date': None}},
-        upsert=True,
-        return_document=True
-    )
-    today = current_time.date()
-    last_entry_date = stats.get('last_entry_date')
-    if last_entry_date: last_entry_date = last_entry_date.date()
-    if last_entry_date == today: pass
-    elif last_entry_date == today - timedelta(days=1):
-        user_stats_collection.update_one({'user_id': user_id}, {'$inc': {'streak': 1}, '$set': {'last_entry_date': current_time}})
-    else:
-        user_stats_collection.update_one({'user_id': user_id}, {'$set': {'streak': 1, 'last_entry_date': current_time}})
+    
+    # (Your user streak logic can be added here if needed)
+
     return jsonify({"predicted_emotion": predicted_label})
+
+
+# --- Placeholder for Suggestion Endpoint ---
+# This endpoint will be updated once you deploy your second model to Hugging Face
+@app.route('/generate-suggestion', methods=['GET'])
+def generate_suggestion():
+    # Step 1: Get the recent entries from the database (this part is the same)
+    recent_entries = list(journal_collection.find({}).sort("timestamp", -1).limit(5))
+    if len(recent_entries) < 3:
+        return jsonify({"suggestion": "Keep journaling to unlock your first personalized insight! You need at least 3 entries."})
+
+    # Step 2: Build the prompt string (this part is also the same)
+    history_string = ""
+    for entry in recent_entries:
+        history_string += f"- Emotion: {entry['emotion']}, Entry: \"{entry['text']}\"\n"
+    prompt = f"### Instruction:\nYou are an empathetic and insightful wellness coach...\n\n### Input:\n{history_string}\n\n### Response:\n"
+
+    # Step 3: Call the Hugging Face Inference Endpoint (this is the new part)
+    headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
+    payload = {
+        "inputs": prompt,
+        "parameters": {
+            "max_new_tokens": 100,
+            "temperature": 0.7
+        }
+    }
+    
+    response = requests.post(HF_SUGGESTION_URL, headers=headers, json=payload)
+
+    # Error handling for the API call
+    if response.status_code != 200:
+        return jsonify({"error": "Failed to get suggestion from Hugging Face endpoint", "details": response.text}), 500
+
+    suggestion_data = response.json()
+    
+    # The handler.py returns a list with a dictionary, e.g., [{'generated_text': '...'}]
+    final_suggestion = suggestion_data[0]['generated_text']
+
+    return jsonify({"suggestion": final_suggestion})
+# --- All Other API Endpoints ---
+# (Your other endpoints for history, stats, goals, etc.)
+
+@app.route('/history', methods=['GET'])
+def get_history():
+    entries = list(journal_collection.find({}, {'_id': 0}).sort("timestamp", -1))
+    return jsonify(entries)
+
+@app.route('/history/<entry_id>', methods=['DELETE'])
+def delete_journal_entry(entry_id):
+    try:
+        decoded_timestamp_str = unquote(entry_id)
+        result = journal_collection.delete_one({'timestamp': datetime.fromisoformat(decoded_timestamp_str.replace("Z", "+00:00"))})
+        if result.deleted_count == 0:
+            return jsonify({'error': 'Journal entry not found'}), 404
+        return jsonify({'message': 'Entry deleted successfully'}), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
 
 @app.route('/stats', methods=['GET'])
 def get_stats():
@@ -74,29 +134,8 @@ def get_stats():
     if not stats: return jsonify({'streak': 0})
     return jsonify(stats)
 
-@app.route('/history', methods=['GET'])
-def get_history():
-    entries = list(journal_collection.find({}, {'_id': 0}).sort("timestamp", -1))
-    return jsonify(entries)
-
-@app.route('/generate-suggestion', methods=['GET'])
-def generate_suggestion():
-    #... (your existing suggestion code)
-    recent_entries = list(journal_collection.find({}).sort("timestamp", -1).limit(5))
-    if len(recent_entries) < 3: return jsonify({"suggestion": "Keep journaling..."})
-    history_string = ""
-    for entry in recent_entries: history_string += f"- Emotion: {entry['emotion']}, Entry: \"{entry['text']}\"\n"
-    prompt = f"### Instruction:\nYou are an empathetic wellness coach...\n\n### Input:\n{history_string}\n\n### Response:\n"
-    inputs = suggestion_tokenizer(prompt, return_tensors="pt").to(suggestion_model.device)
-    with torch.no_grad():
-        outputs = suggestion_model.generate(**inputs, max_new_tokens=100, pad_token_id=suggestion_tokenizer.eos_token_id)
-    response_text = suggestion_tokenizer.decode(outputs[0], skip_special_tokens=True)
-    suggestion = response_text.split("### Response:")[1].strip()
-    return jsonify({"suggestion": suggestion})
-
 @app.route('/goals', methods=['POST'])
 def create_goal():
-    # ... (your existing goal creation code)
     data = request.get_json()
     suggestion_text = data.get('suggestion_text')
     if not suggestion_text: return jsonify({'error': 'No suggestion text provided'}), 400
@@ -106,39 +145,29 @@ def create_goal():
 
 @app.route('/goals/<goal_id>/complete', methods=['POST'])
 def complete_goal(goal_id):
-    # ... (your existing goal completion code)
     result = goals_collection.update_one({'_id': ObjectId(goal_id)}, {'$set': {'status': 'completed', 'completed_at': datetime.utcnow()}})
     if result.matched_count == 0: return jsonify({'error': 'Goal not found'}), 404
     return jsonify({'message': 'Goal marked as complete!'})
 
 @app.route('/goals', methods=['GET'])
 def get_goals():
-    # ... (your existing goal retrieval code)
     all_goals = []
     for goal in goals_collection.find({}).sort("created_at", -1):
         goal['_id'] = str(goal['_id'])
         all_goals.append(goal)
     return jsonify(all_goals)
-# Add this new function to api.py
+
 @app.route('/goals/<goal_id>', methods=['DELETE'])
 def delete_goal(goal_id):
-    """Deletes a specific goal by its ID."""
     try:
-        # Convert the goal_id string from the URL into a MongoDB ObjectId
         result = goals_collection.delete_one({'_id': ObjectId(goal_id)})
-        
-        # Check if a document was actually deleted
         if result.deleted_count == 0:
             return jsonify({'error': 'Goal not found'}), 404
-            
         return jsonify({'message': 'Goal deleted successfully'}), 200
     except Exception as e:
-        # Handle potential errors, e.g., an invalid ObjectId format
         return jsonify({'error': str(e)}), 400
 
-
 def process_entries_for_topics(entries):
-    # ... (your helper function for entity insights)
     keyword_categories = {
         'Work & Career': ['job', 'work', 'boss', 'colleague', 'project', 'deadline', 'career', 'office', 'meeting'],
         'Relationships': ['friend', 'partner', 'family', 'mom', 'dad', 'sister', 'brother', 'relationship', 'date'],
@@ -150,13 +179,17 @@ def process_entries_for_topics(entries):
         doc = nlp(entry['text'].lower())
         found_topics = set()
         for topic, keywords in keyword_categories.items():
-            if any(keyword in entry['text'].lower() for keyword in keywords): found_topics.add(topic)
+            if any(keyword in entry['text'].lower() for keyword in keywords):
+                found_topics.add(topic)
         for token in doc:
-            if token.pos_ == 'NOUN' and not token.is_stop and len(token.text) > 3: found_topics.add(token.text.capitalize())
-            if token.ent_type_ in ['PERSON', 'ORG']: found_topics.add(token.text.capitalize())
+            if token.pos_ == 'NOUN' and not token.is_stop and len(token.text) > 3:
+                found_topics.add(token.text.capitalize())
+            if token.ent_type_ in ['PERSON', 'ORG']:
+                found_topics.add(token.text.capitalize())
         for topic in found_topics:
             topic_emotion_map[topic][entry['emotion']] += 1
     return topic_emotion_map
+
 
 @app.route('/entity-insights', methods=['GET'])
 def get_entity_insights():
@@ -192,6 +225,7 @@ def get_entity_insights():
                 simple_insights.append(f"Discussions about **'{topic}'** often correlate with feelings of **'{most_common_emotion}'**.")
         return jsonify({'insights': simple_insights[:5]})
     return jsonify({'insights': insights[:5]})
+
 
 
 if __name__ == '__main__':

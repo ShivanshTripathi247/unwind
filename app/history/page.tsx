@@ -31,6 +31,26 @@ export default function HistoryPage() {
 
     fetchHistory();
   }, []); // The empty array means this effect runs once when the page loads
+  
+  const handleDeleteEntry = async (timestamp: string) => {
+    try {
+      // --- THIS IS THE FIX ---
+      // Encode the timestamp to make it URL-safe
+      const encodedTimestamp = encodeURIComponent(timestamp);
+      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/history/${encodedTimestamp}`, {
+        method: 'DELETE',
+      });
+      // ---------------------
+
+      if (response.ok) {
+        setEntries(currentEntries => currentEntries.filter(entry => entry.timestamp !== timestamp));
+      } else {
+        console.error("Failed to delete entry");
+      }
+    } catch (error) {
+      console.error("Error deleting entry:", error);
+    }
+  };
 
   return (
     <>
@@ -61,6 +81,13 @@ export default function HistoryPage() {
                       Detected Emotion: {" "}
                       <span className="font-bold text-pink-400 capitalize animate-pulse">{entry.emotion}</span>
                     </p>
+                      <button
+                      onClick={() => handleDeleteEntry(entry.timestamp)}
+                      className="text-red-500 hover:text-red-700 font-semibold ml-4"
+                      aria-label="Delete entry"
+                    >
+                      &times; {/* A simple 'X' icon */}
+                    </button>
                   </div>
                 ))}
               </div>

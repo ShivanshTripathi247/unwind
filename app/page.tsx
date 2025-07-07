@@ -2,7 +2,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 import { motion } from "framer-motion";
 import StreakCounter from "./components/StreakCounter";
 import { CreativeHero } from "./components/CreativeHero";
@@ -17,7 +17,8 @@ export default function HomePage() {
   // State to manage loading status
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleAnalyzeClick = async () => {
+  const handleAnalyzeClick = async (event: FormEvent) => {
+    event.preventDefault();
     if (!inputText) return; // Don't do anything if text box is empty
 
     setIsLoading(true);
