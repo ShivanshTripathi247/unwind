@@ -113,8 +113,23 @@ def generate_suggestion():
 
 @app.route('/history', methods=['GET'])
 def get_history():
-    entries = list(journal_collection.find({}, {'_id': 0}).sort("timestamp", -1))
+    entries = list(journal_collection.find({}).sort("timestamp", -1))
+    
+    # --- THIS IS THE FIX ---
+    # Loop through each entry to make it JSON serializable
+    for entry in entries:
+        # Convert the MongoDB ObjectId to a simple string
+        if '_id' in entry:
+            entry['_id'] = str(entry['_id'])
+            
+        # Convert the datetime object to a standardized ISO 8601 string
+        if 'timestamp' in entry and isinstance(entry['timestamp'], datetime):
+            # The 'Z' at the end explicitly marks the time as UTC
+            entry['timestamp'] = entry['timestamp'].isoformat() + "Z"
+    # -------------------------
+
     return jsonify(entries)
+    
 
 @app.route('/history/<entry_id>', methods=['DELETE'])
 def delete_journal_entry(entry_id):
@@ -126,6 +141,36 @@ def delete_journal_entry(entry_id):
         return jsonify({'message': 'Entry deleted successfully'}), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 400
+
+# Add this new function to your backend/api.py file
+
+@app.route('/history/dates', methods=['GET'])
+def get_history_dates():
+    """Returns a list of unique dates (YYYY-MM-DD) with journal entries."""
+    try:
+        # This aggregation pipeline is very efficient for getting unique dates
+        pipeline = [
+            {
+                "$group": {
+                    "_id": {
+                        "$dateToString": { "format": "%Y-%m-%d", "date": "$timestamp" }
+                    }
+                }
+            },
+            {
+                "$sort": { "_id": 1 } # Sort the dates chronologically
+            }
+        ]
+        
+        dates_cursor = journal_collection.aggregate(pipeline)
+        
+        # Extract the dates into a simple list of strings
+        dates = [d['_id'] for d in dates_cursor]
+        
+        return jsonify(dates)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 
 @app.route('/stats', methods=['GET'])
 def get_stats():
@@ -149,6 +194,22 @@ def complete_goal(goal_id):
     if result.matched_count == 0: return jsonify({'error': 'Goal not found'}), 404
     return jsonify({'message': 'Goal marked as complete!'})
 
+@app.route('/goals/<goal_id>', methods=['DELETE'])
+def delete_goal(goal_id):
+    """Deletes a specific goal by its ID."""
+    try:
+        # Convert the goal_id string from the URL into a MongoDB ObjectId
+        result = goals_collection.delete_one({'_id': ObjectId(goal_id)})
+        
+        # Check if a document was actually deleted
+        if result.deleted_count == 0:
+            return jsonify({'error': 'Goal not found'}), 404
+            
+        return jsonify({'message': 'Goal deleted successfully'}), 200
+    except Exception as e:
+        # Handle potential errors, e.g., an invalid ObjectId format
+        return jsonify({'error': str(e)}), 400
+
 @app.route('/goals', methods=['GET'])
 def get_goals():
     all_goals = []
@@ -157,15 +218,6 @@ def get_goals():
         all_goals.append(goal)
     return jsonify(all_goals)
 
-@app.route('/goals/<goal_id>', methods=['DELETE'])
-def delete_goal(goal_id):
-    try:
-        result = goals_collection.delete_one({'_id': ObjectId(goal_id)})
-        if result.deleted_count == 0:
-            return jsonify({'error': 'Goal not found'}), 404
-        return jsonify({'message': 'Goal deleted successfully'}), 200
-    except Exception as e:
-        return jsonify({'error': str(e)}), 400
 
 def process_entries_for_topics(entries):
     keyword_categories = {

@@ -260,6 +260,12 @@ const handleDeleteGoal = async (goalId: string) => {
                   <div key={goal._id} className="flex justify-between items-center opacity-50">
                     <p className="line-through text-white/60">{goal.suggestion_text}</p>
                     <span className="text-green-400 font-bold">Completed!</span>
+                    <button
+                      onClick={() => handleDeleteGoal(goal._id)}
+                      className="ml-4 px-3 py-1 bg-red-500 text-white rounded-md hover:bg-red-600 text-sm"
+                    >
+                      Delete
+                    </button>
                   </div>
                 ))}
               </div>
