@@ -54,7 +54,7 @@ export default function HomePage() {
             <div className="absolute top-40 right-10 w-96 h-96 bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
             <div className="absolute bottom-20 left-1/3 w-96 h-96 bg-gradient-to-br from-pink-500 via-blue-400 to-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
           </div>
-          <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center md:mt-30 mt-30">
             <div className="w-full max-w-2xl">
               <div className="flex justify-between items-center mb-6">
                 <StreakCounter />

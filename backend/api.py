@@ -15,7 +15,8 @@ from collections import defaultdict
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+
+CORS(app, resources={r"/*": {"origins": ["https://unwind-delta.vercel.app"]}})
 
 # --- Setup Connections and Secrets ---
 CONNECTION_STRING = os.getenv("MONGO_URI") 
@@ -37,6 +38,11 @@ HF_SUGGESTION_URL = os.getenv("HF_SUGGESTION_URL")
 
 print("Backend service initialized and ready to serve requests.")
 
+
+@app.route('/')
+def health_check():
+    """A simple endpoint to confirm the service is live."""
+    return jsonify({"status": "ok", "message": "Backend service is healthy."}), 200
 
 # --- Predict Endpoint (Using Hugging Face) ---
 @app.route('/predict', methods=['POST'])
