@@ -135,7 +135,18 @@ const handleDeleteGoal = async (goalId: string) => {
     datasets: [
       {
         label: 'Emotional Score',
-        data: entries.map(entry => ({ "sadness": 0, "anxiety": 1, "anger": 2, "neutral": 3, "joy": 4 })[entry.emotion.toLowerCase()] || 2),
+        data: entries.map(entry => {
+          // Define emotion map with explicit index signature
+          const emotionMap: { [key: string]: number } = { 
+            "sadness": 0, 
+            "anxiety": 1, 
+            "anger": 2, 
+            "neutral": 3, 
+            "joy": 4 
+          };
+          // Now TypeScript knows emotionMap can be indexed with strings
+          return emotionMap[entry.emotion.toLowerCase()] ?? 3;
+        }),
         borderColor: 'rgb(59, 130, 246)',
         backgroundColor: 'rgba(59, 130, 246, 0.5)',
         tension: 0.1
