@@ -240,7 +240,7 @@ const handleDeleteGoal = async (goalId: string) => {
               )}
               {suggestion && (
                 <div className="mt-4 text-left text-lg bg-white/10 p-4 rounded-2xl shadow-md animate-fade-in">
-                  <p className="italic">"{suggestion}"</p>
+                  <p>{suggestion}</p>
                   <button
                     onClick={() => handleCreateGoal(suggestion)}
                     className="mt-4 bg-green-400 text-green-900 font-bold py-1 px-3 rounded-full text-sm hover:bg-green-300"
