@@ -2,6 +2,11 @@
 
 This is a full-stack web application designed to help users track their emotional well-being through journaling and receive personalized, AI-driven insights and suggestions. The app uses a multi-layered AI system to understand user entries, generate empathetic feedback, and uncover deep, time-based patterns in their emotional journey.
 
+<img src="public/1.png" width="500" height="250"> <img src="public/2.png" width="500" height="250">
+<img src="public/3.png" width="500" height="250"> <img src="public/4.png" width="500" height="250">
+<img src="public/5.png" width="500" height="250"> <img src="public/6.png" width="500" height="250">
+<img src="public/7.png" width="500" height="250"> <img src="public/8.png" width="500" height="250">
+
 ## Core Features
 
 -   **Sentiment Analysis:** Automatically detects the primary emotion (e.g., joy, anxiety, sadness) in a user's journal entry.
@@ -11,6 +16,25 @@ This is a full-stack web application designed to help users track their emotiona
 -   **Gamification:** A streak counter to encourage consistent daily journaling.
 -   **Goal Setting:** Users can turn AI suggestions into actionable goals and track their completion.
 
+## Tech Stack & Architecture
+
+This project uses a modern, decoupled architecture with a Next.js frontend and a Python backend.
+
+![Architecture](public/Arch.png "San Juan Mountains")
+
+### Frontend
+
+-   **Framework:** [Next.js](https://nextjs.org/) (React)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **Data Visualization:** [Chart.js](https://www.chartjs.org/) with `react-chartjs-2`
+-   **Deployment:** [Vercel](https://vercel.com/)
+
+### Backend
+
+-   **Framework:** [Flask](https://flask.palletsprojects.com/)
+-   **Database:** [MongoDB Atlas](https://www.mongodb.com/atlas)
+-   **AI Libraries:** `Hugging Face Transformers`, `PyTorch`, `PEFT`, `spaCy`
+-   **Deployment:** [Render](https://render.com/)
 ## AI/ML Specifications
 
 This project's intelligence is powered by a pipeline of three distinct AI/ML models and logical engines working in concert.
@@ -40,24 +64,6 @@ This engine moves beyond single entries to analyze the user's entire journaling 
 -   **How it Works:**
     1.  **Smarter Topic Extraction:** It uses a combination of keyword matching (for abstract concepts like 'Work' or 'Health'), Named Entity Recognition (for people and places), and Part-of-Speech tagging (for important nouns) to identify what each journal entry is about.
     2.  **Time-Aware Analysis:** Its most powerful feature is its ability to compare two periods (e.g., the first half of entries vs. the second half). It then identifies meaningful patterns like **Emotional Shifts** (a topic's associated emotion has changed) or **Emerging Challenges** (a topic has recently become a source of negative emotion).
-
-## Tech Stack & Architecture
-
-This project uses a modern, decoupled architecture with a Next.js frontend and a Python backend.
-
-### Frontend
-
--   **Framework:** [Next.js](https://nextjs.org/) (React)
--   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
--   **Data Visualization:** [Chart.js](https://www.chartjs.org/) with `react-chartjs-2`
--   **Deployment:** [Vercel](https://vercel.com/)
-
-### Backend
-
--   **Framework:** [Flask](https://flask.palletsprojects.com/)
--   **Database:** [MongoDB Atlas](https://www.mongodb.com/atlas)
--   **AI Libraries:** `Hugging Face Transformers`, `PyTorch`, `PEFT`, `spaCy`
--   **Deployment:** [Render](https://render.com/)
 
 ## Getting Started
 
