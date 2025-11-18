@@ -2,10 +2,8 @@
 
 This is a full-stack web application designed to help users track their emotional well-being through journaling and receive personalized, AI-driven insights and suggestions. The app uses a multi-layered AI system to understand user entries, generate empathetic feedback, and uncover deep, time-based patterns in their emotional journey.
 
-<img src="public/1.png" width="500" height="250"> <img src="public/2.png" width="500" height="250">
-<img src="public/3.png" width="500" height="250"> <img src="public/4.png" width="500" height="250">
-<img src="public/5.png" width="500" height="250"> <img src="public/6.png" width="500" height="250">
-<img src="public/7.png" width="500" height="250"> <img src="public/8.png" width="500" height="250">
+<img src="public/7.png" width="400" height="200"> <img src="public/4.png" width="400" height="200"> 
+<img src="public/6.png" width="400" height="200"> <img src="public/8.png" width="400" height="200">
 
 ## Core Features
 
